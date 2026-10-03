@@ -1,0 +1,279 @@
+{
+  "sigmas": {
+    "v1b": 0.6,
+    "v1c": 0.8,
+    "wide10": 1.0
+  },
+  "results": {
+    "v1b": {
+      "training world": {
+        "sp_next_dry_err_days": 0.2620018748501982,
+        "sp_log_bias": 1.1226960136607414e-05,
+        "sp_spearman": 0.9551619467904866,
+        "sp_ci90_coverage": 0.9405,
+        "forecast_next_dry_err_days": 0.5750000000000002,
+        "forecast_ci90_coverage": 0.9475,
+        "forecast_deep_err_days": 2.1,
+        "n_deep_forecasts": 28
+      },
+      "random mismatch": {
+        "sp_next_dry_err_days": 0.4465159735924167,
+        "sp_log_bias": -0.05909657335038123,
+        "sp_spearman": 0.8997437564359392,
+        "sp_ci90_coverage": 0.7375,
+        "forecast_next_dry_err_days": 0.7750000000000001,
+        "forecast_ci90_coverage": 0.893,
+        "forecast_deep_err_days": 1.65,
+        "n_deep_forecasts": 33
+      },
+      "random + systematic": {
+        "sp_next_dry_err_days": 0.47352158656134935,
+        "sp_log_bias": 0.09303653592540641,
+        "sp_spearman": 0.8866941311735327,
+        "sp_ci90_coverage": 0.687,
+        "forecast_next_dry_err_days": 0.9500000000000001,
+        "forecast_ci90_coverage": 0.8421666666666666,
+        "forecast_deep_err_days": 2.9999999999999996,
+        "n_deep_forecasts": 40
+      },
+      "leaky district": {
+        "sp_next_dry_err_days": 0.2922019231742945,
+        "sp_log_bias": -0.11024682211330072,
+        "sp_spearman": 0.9229459782364945,
+        "sp_ci90_coverage": 0.8585,
+        "forecast_next_dry_err_days": 0.5500000000000003,
+        "forecast_ci90_coverage": 0.9413333333333334,
+        "forecast_deep_err_days": 1.0750000000000002,
+        "n_deep_forecasts": 30
+      },
+      "tight district": {
+        "sp_next_dry_err_days": 0.6851505582714839,
+        "sp_log_bias": 0.2798441703348461,
+        "sp_spearman": 0.8053830708457675,
+        "sp_ci90_coverage": 0.643,
+        "forecast_next_dry_err_days": 1.2000000000000002,
+        "forecast_ci90_coverage": 0.8041666666666667,
+        "forecast_deep_err_days": 3.6750000000000007,
+        "n_deep_forecasts": 31
+      },
+      "deep ponding": {
+        "sp_next_dry_err_days": 0.5202925378523302,
+        "sp_log_bias": -0.19811772034082153,
+        "sp_spearman": 0.9454065668516416,
+        "sp_ci90_coverage": 0.7545,
+        "forecast_next_dry_err_days": 1.0250000000000004,
+        "forecast_ci90_coverage": 0.8523333333333334,
+        "forecast_deep_err_days": 1.424999999999999,
+        "n_deep_forecasts": 1412
+      },
+      "hot, dry season": {
+        "sp_next_dry_err_days": 0.39209672071373247,
+        "sp_log_bias": 0.08275270914762871,
+        "sp_spearman": 0.9222868750717188,
+        "sp_ci90_coverage": 0.814,
+        "forecast_next_dry_err_days": 0.44999999999999973,
+        "forecast_ci90_coverage": 0.931,
+        "forecast_deep_err_days": 2.8,
+        "n_deep_forecasts": 19
+      },
+      "leaky district + 20 loggers": {
+        "sp_next_dry_err_days": 0.313896612697006,
+        "sp_log_bias": -0.12025239147018323,
+        "sp_spearman": 0.9202185975546494,
+        "sp_ci90_coverage": 0.7871666666666667,
+        "forecast_next_dry_err_days": 0.40000000000000036,
+        "forecast_ci90_coverage": 0.9197777777777777,
+        "forecast_deep_err_days": 0.9874999999999998,
+        "n_deep_forecasts": 30.0,
+        "sp_next_dry_err_days_sd": 0.03960386523634215,
+        "sp_log_bias_sd": 0.031062632414074635,
+        "sp_spearman_sd": 0.0038922500414172293,
+        "sp_ci90_coverage_sd": 0.04254801209614066,
+        "forecast_next_dry_err_days_sd": 0.049999999999999156,
+        "forecast_ci90_coverage_sd": 0.008353863599379457,
+        "forecast_deep_err_days_sd": 0.1305038313613818,
+        "n_deep_forecasts_sd": 0.0
+      }
+    },
+    "v1c": {
+      "training world": {
+        "sp_next_dry_err_days": 0.2828572237586422,
+        "sp_log_bias": -0.006956170749597201,
+        "sp_spearman": 0.9537231014307752,
+        "sp_ci90_coverage": 0.947,
+        "forecast_next_dry_err_days": 0.575,
+        "forecast_ci90_coverage": 0.9473333333333334,
+        "forecast_deep_err_days": 2.3375000000000012,
+        "n_deep_forecasts": 28
+      },
+      "random mismatch": {
+        "sp_next_dry_err_days": 0.43914473482128447,
+        "sp_log_bias": -0.03963750185732717,
+        "sp_spearman": 0.8989392372348093,
+        "sp_ci90_coverage": 0.753,
+        "forecast_next_dry_err_days": 0.75,
+        "forecast_ci90_coverage": 0.896,
+        "forecast_deep_err_days": 1.5499999999999998,
+        "n_deep_forecasts": 33
+      },
+      "random + systematic": {
+        "sp_next_dry_err_days": 0.509274365375685,
+        "sp_log_bias": 0.13403395163177118,
+        "sp_spearman": 0.8842805735701433,
+        "sp_ci90_coverage": 0.673,
+        "forecast_next_dry_err_days": 0.8750000000000002,
+        "forecast_ci90_coverage": 0.8483333333333334,
+        "forecast_deep_err_days": 2.95,
+        "n_deep_forecasts": 40
+      },
+      "leaky district": {
+        "sp_next_dry_err_days": 0.2558802796847346,
+        "sp_log_bias": -0.05950659312281819,
+        "sp_spearman": 0.926222096055524,
+        "sp_ci90_coverage": 0.9125,
+        "forecast_next_dry_err_days": 0.47499999999999987,
+        "forecast_ci90_coverage": 0.9465,
+        "forecast_deep_err_days": 1.4125000000000003,
+        "n_deep_forecasts": 30
+      },
+      "tight district": {
+        "sp_next_dry_err_days": 0.46008132774410004,
+        "sp_log_bias": 0.1711164153744207,
+        "sp_spearman": 0.8229689417422354,
+        "sp_ci90_coverage": 0.8345,
+        "forecast_next_dry_err_days": 1.0750000000000002,
+        "forecast_ci90_coverage": 0.846,
+        "forecast_deep_err_days": 3.5999999999999996,
+        "n_deep_forecasts": 31
+      },
+      "deep ponding": {
+        "sp_next_dry_err_days": 0.5271607302344514,
+        "sp_log_bias": -0.20292857057107333,
+        "sp_spearman": 0.9410021142505285,
+        "sp_ci90_coverage": 0.7725,
+        "forecast_next_dry_err_days": 1.174999999999999,
+        "forecast_ci90_coverage": 0.8148333333333333,
+        "forecast_deep_err_days": 1.75,
+        "n_deep_forecasts": 1412
+      },
+      "hot, dry season": {
+        "sp_next_dry_err_days": 0.4052348234045282,
+        "sp_log_bias": 0.10616337917893828,
+        "sp_spearman": 0.917368156342039,
+        "sp_ci90_coverage": 0.811,
+        "forecast_next_dry_err_days": 0.47499999999999964,
+        "forecast_ci90_coverage": 0.9285,
+        "forecast_deep_err_days": 2.75,
+        "n_deep_forecasts": 19
+      },
+      "leaky district + 20 loggers": {
+        "sp_next_dry_err_days": 0.2797438470310756,
+        "sp_log_bias": -0.09419407004962281,
+        "sp_spearman": 0.9254740703685176,
+        "sp_ci90_coverage": 0.8513333333333334,
+        "forecast_next_dry_err_days": 0.3750000000000003,
+        "forecast_ci90_coverage": 0.9253333333333332,
+        "forecast_deep_err_days": 0.9541666666666666,
+        "n_deep_forecasts": 30.0,
+        "sp_next_dry_err_days_sd": 0.003744484700956574,
+        "sp_log_bias_sd": 0.0023469451366613173,
+        "sp_spearman_sd": 0.001560221183780383,
+        "sp_ci90_coverage_sd": 0.01990184246077068,
+        "forecast_next_dry_err_days_sd": 0.024999999999999967,
+        "forecast_ci90_coverage_sd": 0.007751343969489017,
+        "forecast_deep_err_days_sd": 0.08508574106942576,
+        "n_deep_forecasts_sd": 0.0
+      }
+    },
+    "wide10": {
+      "training world": {
+        "sp_next_dry_err_days": 0.2928812672996919,
+        "sp_log_bias": -0.009470303084409229,
+        "sp_spearman": 0.952244620061155,
+        "sp_ci90_coverage": 0.9405,
+        "forecast_next_dry_err_days": 0.575,
+        "forecast_ci90_coverage": 0.9455,
+        "forecast_deep_err_days": 1.9124999999999988,
+        "n_deep_forecasts": 28
+      },
+      "random mismatch": {
+        "sp_next_dry_err_days": 0.4608949008089458,
+        "sp_log_bias": -0.031643052568356575,
+        "sp_spearman": 0.8950593017648254,
+        "sp_ci90_coverage": 0.754,
+        "forecast_next_dry_err_days": 0.75,
+        "forecast_ci90_coverage": 0.8903333333333333,
+        "forecast_deep_err_days": 1.5750000000000002,
+        "n_deep_forecasts": 33
+      },
+      "random + systematic": {
+        "sp_next_dry_err_days": 0.5660837021206284,
+        "sp_log_bias": 0.15888647217905524,
+        "sp_spearman": 0.8772826773206692,
+        "sp_ci90_coverage": 0.6395,
+        "forecast_next_dry_err_days": 0.875,
+        "forecast_ci90_coverage": 0.8441666666666666,
+        "forecast_deep_err_days": 3.325,
+        "n_deep_forecasts": 40
+      },
+      "leaky district": {
+        "sp_next_dry_err_days": 0.26081839096673765,
+        "sp_log_bias": -0.041587841851149984,
+        "sp_spearman": 0.9234886378721595,
+        "sp_ci90_coverage": 0.918,
+        "forecast_next_dry_err_days": 0.45,
+        "forecast_ci90_coverage": 0.9448333333333333,
+        "forecast_deep_err_days": 1.2250000000000008,
+        "n_deep_forecasts": 30
+      },
+      "tight district": {
+        "sp_next_dry_err_days": 0.3884622070806856,
+        "sp_log_bias": 0.10253945625032906,
+        "sp_spearman": 0.825899859974965,
+        "sp_ci90_coverage": 0.8985,
+        "forecast_next_dry_err_days": 0.9500000000000002,
+        "forecast_ci90_coverage": 0.8806666666666667,
+        "forecast_deep_err_days": 3.575000000000001,
+        "n_deep_forecasts": 31
+      },
+      "deep ponding": {
+        "sp_next_dry_err_days": 0.5157763771683488,
+        "sp_log_bias": -0.19719316722517977,
+        "sp_spearman": 0.9388464817116203,
+        "sp_ci90_coverage": 0.805,
+        "forecast_next_dry_err_days": 1.1000000000000014,
+        "forecast_ci90_coverage": 0.851,
+        "forecast_deep_err_days": 1.5,
+        "n_deep_forecasts": 1412
+      },
+      "hot, dry season": {
+        "sp_next_dry_err_days": 0.4293540740427506,
+        "sp_log_bias": 0.13419833222082567,
+        "sp_spearman": 0.9148313197078298,
+        "sp_ci90_coverage": 0.8015,
+        "forecast_next_dry_err_days": 0.4500000000000002,
+        "forecast_ci90_coverage": 0.9191666666666667,
+        "forecast_deep_err_days": 2.6500000000000004,
+        "n_deep_forecasts": 19
+      },
+      "leaky district + 20 loggers": {
+        "sp_next_dry_err_days": 0.27683703512563856,
+        "sp_log_bias": -0.059695683385249186,
+        "sp_spearman": 0.9211275717818929,
+        "sp_ci90_coverage": 0.858,
+        "forecast_next_dry_err_days": 0.3833333333333333,
+        "forecast_ci90_coverage": 0.9152222222222223,
+        "forecast_deep_err_days": 1.1749999999999996,
+        "n_deep_forecasts": 30.0,
+        "sp_next_dry_err_days_sd": 0.020718463336151266,
+        "sp_log_bias_sd": 0.04329299446334393,
+        "sp_spearman_sd": 0.0017843909613227558,
+        "sp_ci90_coverage_sd": 0.015000000000000013,
+        "forecast_next_dry_err_days_sd": 0.038188130791298534,
+        "forecast_ci90_coverage_sd": 0.007742977702647922,
+        "forecast_deep_err_days_sd": 0.29553976043842284,
+        "n_deep_forecasts_sd": 0.0
+      }
+    }
+  }
+}

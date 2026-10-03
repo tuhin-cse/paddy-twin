@@ -1,0 +1,119 @@
+{
+  "A_synthetic_twin": {
+    "S0 optical, 1 season": {
+      "fields_with_estimate": 0.808,
+      "median_episodes": 1.0,
+      "median_abs_pct_error": 45.518488721355595,
+      "spearman": 0.18127054056248335,
+      "ci90_coverage": 0.8143564356435643,
+      "leaky_detection_bacc": 0.5499917204835237,
+      "next_dry_err_days_field": 1.2408538075263653,
+      "next_dry_err_days_et_only": 5.623612756055783,
+      "next_dry_err_days_regional_const": 1.0221374633515325,
+      "share_err_gt1d_field": 0.5853960396039604,
+      "share_err_gt1d_regional": 0.5148514851485149,
+      "share_err_gt1d_et_only": 1.0
+    },
+    "S1 + app irrigation date": {
+      "fields_with_estimate": 0.85,
+      "median_episodes": 2.0,
+      "median_abs_pct_error": 47.84261209768966,
+      "spearman": 0.26661428592979103,
+      "ci90_coverage": 0.7235294117647059,
+      "leaky_detection_bacc": 0.6448019055659411,
+      "next_dry_err_days_field": 1.267033191900351,
+      "next_dry_err_days_et_only": 5.608210217885869,
+      "next_dry_err_days_regional_const": 1.026541743766563,
+      "share_err_gt1d_field": 0.5811764705882353,
+      "share_err_gt1d_regional": 0.5176470588235295,
+      "share_err_gt1d_et_only": 1.0
+    },
+    "S2 + app date & pump hours": {
+      "fields_with_estimate": 0.85,
+      "median_episodes": 2.0,
+      "median_abs_pct_error": 46.77992212071068,
+      "spearman": 0.313298694967348,
+      "ci90_coverage": 0.6035294117647059,
+      "leaky_detection_bacc": 0.6625761321835615,
+      "next_dry_err_days_field": 1.1268038805608613,
+      "next_dry_err_days_et_only": 5.608210217885869,
+      "next_dry_err_days_regional_const": 1.026541743766563,
+      "share_err_gt1d_field": 0.54,
+      "share_err_gt1d_regional": 0.5176470588235295,
+      "share_err_gt1d_et_only": 1.0
+    },
+    "S3 + app date, pump hours, water-gone": {
+      "fields_with_estimate": 0.999,
+      "median_episodes": 5.0,
+      "median_abs_pct_error": 35.212007208932654,
+      "spearman": 0.5934839660196164,
+      "ci90_coverage": 0.5625625625625625,
+      "leaky_detection_bacc": 0.8230125771238728,
+      "next_dry_err_days_field": 0.7754490827027412,
+      "next_dry_err_days_et_only": 5.444812638281848,
+      "next_dry_err_days_regional_const": 1.022740861369706,
+      "share_err_gt1d_field": 0.4144144144144144,
+      "share_err_gt1d_regional": 0.5135135135135135,
+      "share_err_gt1d_et_only": 1.0
+    },
+    "S4 optical+SAR, 1 season": {
+      "fields_with_estimate": 0.976,
+      "median_episodes": 3.0,
+      "median_abs_pct_error": 45.8273410684912,
+      "spearman": 0.16773159998411674,
+      "ci90_coverage": 0.7438524590163934,
+      "leaky_detection_bacc": 0.5680268354306179,
+      "next_dry_err_days_field": 1.2486836598421958,
+      "next_dry_err_days_et_only": 5.480703989927371,
+      "next_dry_err_days_regional_const": 1.0186451775269552,
+      "share_err_gt1d_field": 0.5983606557377049,
+      "share_err_gt1d_regional": 0.5122950819672131,
+      "share_err_gt1d_et_only": 1.0
+    },
+    "S5 optical+SAR, 3 seasons": {
+      "fields_with_estimate": 1.0,
+      "median_episodes": 8.0,
+      "median_abs_pct_error": 45.05518298976766,
+      "spearman": 0.30223457973317847,
+      "ci90_coverage": 0.557,
+      "leaky_detection_bacc": 0.5424381573100281,
+      "next_dry_err_days_field": 1.2899720542600719,
+      "next_dry_err_days_et_only": 5.444314643735079,
+      "next_dry_err_days_regional_const": 1.0234192773225397,
+      "share_err_gt1d_field": 0.611,
+      "share_err_gt1d_regional": 0.514,
+      "share_err_gt1d_et_only": 1.0
+    },
+    "S6 optical+SAR+app (date, hours), 3 s": {
+      "fields_with_estimate": 1.0,
+      "median_episodes": 11.0,
+      "median_abs_pct_error": 41.1242499421037,
+      "spearman": 0.5322246542886605,
+      "ci90_coverage": 0.456,
+      "leaky_detection_bacc": 0.7711746407939565,
+      "next_dry_err_days_field": 0.9268850012920897,
+      "next_dry_err_days_et_only": 5.444314643735079,
+      "next_dry_err_days_regional_const": 1.0234192773225397,
+      "share_err_gt1d_field": 0.464,
+      "share_err_gt1d_regional": 0.514,
+      "share_err_gt1d_et_only": 1.0
+    },
+    "et0_feb_apr15_mean": 4.074826666666667
+  },
+  "B_real": {
+    "blocks_rice": 21487,
+    "blocks_with_estimate": 907,
+    "median_episodes": 2.0,
+    "sp_median_mm_d": 4.6,
+    "sp_p10_p90": [
+      1.9000000000000001,
+      7.7
+    ],
+    "median_ci90_width": 13.6,
+    "share_leaky_gt8": 0.0639470782800441,
+    "neighbour_spearman": 0.3415939350600145,
+    "soil_proxy_n": 907,
+    "spearman_sp_vs_bare_swir": -0.03817024669006644,
+    "spearman_sp_vs_clay_ratio_b11_b12": 0.007301364601218816
+  }
+}

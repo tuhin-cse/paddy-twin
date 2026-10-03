@@ -1,0 +1,1180 @@
+{
+  "detection": {
+    "s2_cv_bacc": [
+      1.0,
+      0.9907017922937262,
+      0.9443434268882641,
+      0.8535522448565926,
+      0.7796889101236928,
+      0.6589008516334842,
+      0.6480102329213359,
+      0.5694512195121951,
+      0.567818755951534,
+      0.5385470532009,
+      0.5207830278877599,
+      0.5111751890298604
+    ],
+    "vnir_bacc": [
+      0.9253525297205476,
+      0.8393880889776882,
+      0.7390532008400486,
+      0.6835164443860096,
+      0.6418484896745766,
+      0.5715899057221795,
+      0.5664804811104701,
+      0.5327591463414634,
+      0.5290694810809627,
+      0.5132660876173287,
+      0.5031755237747962,
+      0.5083899354948951
+    ],
+    "vnir_recall": [
+      0.9316628701594533,
+      0.7759815242494227,
+      0.6336898395721925,
+      0.5221445221445221,
+      0.4057971014492754,
+      0.26004728132387706,
+      0.2246376811594203,
+      0.12926829268292683,
+      0.08775981524249422,
+      0.056555269922879174,
+      0.02517162471395881,
+      0.027160493827160494
+    ],
+    "lai_bin_lo": [
+      0.0,
+      0.5,
+      1.0,
+      1.5,
+      2.0,
+      2.5,
+      3.0,
+      3.5,
+      4.0,
+      4.5,
+      5.0,
+      5.5
+    ]
+  },
+  "A_revisit": {
+    "S2, real calendar": {
+      "sat only": {
+        "spearman": 0.35724190081062385,
+        "median_abs_pct_error": 35.317204327728426,
+        "next_dry_err_days": 0.9505097079315337,
+        "share_err_gt1d": 0.476
+      },
+      "sat + date": {
+        "spearman": 0.8245429645429646,
+        "median_abs_pct_error": 20.44252722451624,
+        "next_dry_err_days": 0.5215890619910288,
+        "share_err_gt1d": 0.2
+      },
+      "sat + date, hours": {
+        "spearman": 0.8601049521049522,
+        "median_abs_pct_error": 17.197590233435452,
+        "next_dry_err_days": 0.43294123152838315,
+        "share_err_gt1d": 0.155
+      }
+    },
+    "2.5-day, S2-quality (HLS/GF-1)": {
+      "sat only": {
+        "spearman": 0.5060550674892456,
+        "median_abs_pct_error": 31.688290345987873,
+        "next_dry_err_days": 0.8513829063967204,
+        "share_err_gt1d": 0.424
+      },
+      "sat + date": {
+        "spearman": 0.8578021498021499,
+        "median_abs_pct_error": 18.912374421895912,
+        "next_dry_err_days": 0.48694928181166786,
+        "share_err_gt1d": 0.173
+      },
+      "sat + date, hours": {
+        "spearman": 0.8862134262134264,
+        "median_abs_pct_error": 15.699735462962213,
+        "next_dry_err_days": 0.39839688365257997,
+        "share_err_gt1d": 0.121
+      }
+    },
+    "daily, VNIR only (PlanetScope-like)": {
+      "sat only": {
+        "spearman": 0.2948168117012621,
+        "median_abs_pct_error": 37.60686344417691,
+        "next_dry_err_days": 1.049794226176545,
+        "share_err_gt1d": 0.518
+      },
+      "sat + date": {
+        "spearman": 0.8242742242742244,
+        "median_abs_pct_error": 20.211581544404712,
+        "next_dry_err_days": 0.5134564337519456,
+        "share_err_gt1d": 0.199
+      },
+      "sat + date, hours": {
+        "spearman": 0.8567221487221488,
+        "median_abs_pct_error": 16.421049212048988,
+        "next_dry_err_days": 0.43172495614786044,
+        "share_err_gt1d": 0.154
+      }
+    },
+    "daily, S2-quality (upper bound)": {
+      "sat only": {
+        "spearman": 0.6333671869675933,
+        "median_abs_pct_error": 29.18012668553991,
+        "next_dry_err_days": 0.7690133779755017,
+        "share_err_gt1d": 0.37
+      },
+      "sat + date": {
+        "spearman": 0.8929708729708732,
+        "median_abs_pct_error": 16.810226241433053,
+        "next_dry_err_days": 0.4282019328597211,
+        "share_err_gt1d": 0.122
+      },
+      "sat + date, hours": {
+        "spearman": 0.928927984927985,
+        "median_abs_pct_error": 13.413191731599605,
+        "next_dry_err_days": 0.33530476789240726,
+        "share_err_gt1d": 0.07
+      }
+    },
+    "app only: date, hours": {
+      "spearman": 0.6686992707175641,
+      "median_abs_pct_error": 21.569053754123075,
+      "next_dry_err_days": 0.556359584317347,
+      "share_err_gt1d": 0.29
+    },
+    "app only: date, hours, gone": {
+      "spearman": 0.8751823311823314,
+      "median_abs_pct_error": 15.969969858330495,
+      "next_dry_err_days": 0.40301463804955784,
+      "share_err_gt1d": 0.128
+    }
+  },
+  "B_sparse_loggers": {
+    "S2, real calendar | R2=0.0 | logged=5%": {
+      "M0 regional constant": {
+        "spearman": -0.0012558497546426432,
+        "median_abs_pct_error": 39.07784965765732,
+        "next_dry_err_days": 1.0787597260105053,
+        "share_err_gt1d": 0.5347826086956522
+      },
+      "M1 satellite only": {
+        "spearman": 0.3472370671758515,
+        "median_abs_pct_error": 36.35263535939163,
+        "next_dry_err_days": 0.9619255080164617,
+        "share_err_gt1d": 0.48373071528751754
+      },
+      "M2 leak map (attributes)": {
+        "spearman": 0.0036802050457741767,
+        "median_abs_pct_error": 42.46002389737815,
+        "next_dry_err_days": 1.1744234698232383,
+        "share_err_gt1d": 0.5662692847124825
+      },
+      "M3 leak map + satellite": {
+        "spearman": 0.22798874655635915,
+        "median_abs_pct_error": 39.22510128591463,
+        "next_dry_err_days": 1.0593409270888237,
+        "share_err_gt1d": 0.5239831697054699
+      },
+      "logged fields (sat + log)": {
+        "spearman": 0.8740684198430677,
+        "median_abs_pct_error": 16.947523244904144,
+        "next_dry_err_days": 0.4220076857913275,
+        "share_err_gt1d": 0.15384615384615385
+      }
+    },
+    "S2, real calendar | R2=0.0 | logged=10%": {
+      "M0 regional constant": {
+        "spearman": -0.0037503154039778513,
+        "median_abs_pct_error": 39.11099846473626,
+        "next_dry_err_days": 1.0802716389950398,
+        "share_err_gt1d": 0.5315496098104794
+      },
+      "M1 satellite only": {
+        "spearman": 0.342208436046827,
+        "median_abs_pct_error": 36.35263535939163,
+        "next_dry_err_days": 0.9619255080164617,
+        "share_err_gt1d": 0.4828688219992568
+      },
+      "M2 leak map (attributes)": {
+        "spearman": 0.0038704152941004314,
+        "median_abs_pct_error": 41.882386001863296,
+        "next_dry_err_days": 1.1432341057658988,
+        "share_err_gt1d": 0.5499814195466369
+      },
+      "M3 leak map + satellite": {
+        "spearman": 0.2581770585118652,
+        "median_abs_pct_error": 38.23003950348752,
+        "next_dry_err_days": 1.031745830742107,
+        "share_err_gt1d": 0.5140096618357488
+      },
+      "logged fields (sat + log)": {
+        "spearman": 0.8895965105477799,
+        "median_abs_pct_error": 16.764554169354998,
+        "next_dry_err_days": 0.41928277457646645,
+        "share_err_gt1d": 0.1174496644295302
+      }
+    },
+    "S2, real calendar | R2=0.0 | logged=20%": {
+      "M0 regional constant": {
+        "spearman": -0.00966032130265927,
+        "median_abs_pct_error": 39.04683602872559,
+        "next_dry_err_days": 1.0723494289175743,
+        "share_err_gt1d": 0.5308888334580527
+      },
+      "M1 satellite only": {
+        "spearman": 0.34557716820326584,
+        "median_abs_pct_error": 36.40360668960879,
+        "next_dry_err_days": 0.9712672892367724,
+        "share_err_gt1d": 0.4859067099027189
+      },
+      "M2 leak map (attributes)": {
+        "spearman": 0.004939822878844038,
+        "median_abs_pct_error": 41.65447415416948,
+        "next_dry_err_days": 1.127433210638352,
+        "share_err_gt1d": 0.5505113494637066
+      },
+      "M3 leak map + satellite": {
+        "spearman": 0.2607002538452348,
+        "median_abs_pct_error": 38.02533214704516,
+        "next_dry_err_days": 1.0257183844955318,
+        "share_err_gt1d": 0.5101854161470025
+      },
+      "logged fields (sat + log)": {
+        "spearman": 0.8620475988361517,
+        "median_abs_pct_error": 16.750865231831078,
+        "next_dry_err_days": 0.41649276442695804,
+        "share_err_gt1d": 0.1635434412265758
+      }
+    },
+    "S2, real calendar | R2=0.0 | logged=50%": {
+      "M0 regional constant": {
+        "spearman": -0.016565155363830925,
+        "median_abs_pct_error": 38.961429049296136,
+        "next_dry_err_days": 1.0732907517665362,
+        "share_err_gt1d": 0.5319634703196348
+      },
+      "M1 satellite only": {
+        "spearman": 0.33599811703278243,
+        "median_abs_pct_error": 36.75680080093696,
+        "next_dry_err_days": 0.9725244173424703,
+        "share_err_gt1d": 0.48751007252215955
+      },
+      "M2 leak map (attributes)": {
+        "spearman": -0.0034484339565568588,
+        "median_abs_pct_error": 40.81230173652865,
+        "next_dry_err_days": 1.1218621354923504,
+        "share_err_gt1d": 0.5453934998656997
+      },
+      "M3 leak map + satellite": {
+        "spearman": 0.2951955057907428,
+        "median_abs_pct_error": 37.77760721026595,
+        "next_dry_err_days": 1.020531669093822,
+        "share_err_gt1d": 0.5096696212731668
+      },
+      "logged fields (sat + log)": {
+        "spearman": 0.874639941292939,
+        "median_abs_pct_error": 17.162112238977354,
+        "next_dry_err_days": 0.43064362451680394,
+        "share_err_gt1d": 0.15036593479707253
+      }
+    },
+    "S2, real calendar | R2=0.25 | logged=5%": {
+      "M0 regional constant": {
+        "spearman": -0.0018141914115438302,
+        "median_abs_pct_error": 39.92080683516467,
+        "next_dry_err_days": 1.1029596158705202,
+        "share_err_gt1d": 0.5415848527349229
+      },
+      "M1 satellite only": {
+        "spearman": 0.3365828689306238,
+        "median_abs_pct_error": 36.58042449709451,
+        "next_dry_err_days": 0.9912206115628539,
+        "share_err_gt1d": 0.4964235624123422
+      },
+      "M2 leak map (attributes)": {
+        "spearman": 0.25578269433923584,
+        "median_abs_pct_error": 38.96962042509159,
+        "next_dry_err_days": 1.0480111523516555,
+        "share_err_gt1d": 0.5187938288920056
+      },
+      "M3 leak map + satellite": {
+        "spearman": 0.3799197646449829,
+        "median_abs_pct_error": 36.91203563796456,
+        "next_dry_err_days": 0.9828695786328248,
+        "share_err_gt1d": 0.4934782608695652
+      },
+      "logged fields (sat + log)": {
+        "spearman": 0.8795429922190484,
+        "median_abs_pct_error": 17.469030180270114,
+        "next_dry_err_days": 0.4394201828992337,
+        "share_err_gt1d": 0.14685314685314685
+      }
+    },
+    "S2, real calendar | R2=0.25 | logged=10%": {
+      "M0 regional constant": {
+        "spearman": -0.00791178170989923,
+        "median_abs_pct_error": 39.881381832399285,
+        "next_dry_err_days": 1.0910777794442685,
+        "share_err_gt1d": 0.5394277220364176
+      },
+      "M1 satellite only": {
+        "spearman": 0.3310749024887488,
+        "median_abs_pct_error": 36.613522745806456,
+        "next_dry_err_days": 0.9921826662783841,
+        "share_err_gt1d": 0.4968413229282794
+      },
+      "M2 leak map (attributes)": {
+        "spearman": 0.27543728002774287,
+        "median_abs_pct_error": 38.24907627106002,
+        "next_dry_err_days": 1.031333836039071,
+        "share_err_gt1d": 0.5118543292456336
+      },
+      "M3 leak map + satellite": {
+        "spearman": 0.4021482543676764,
+        "median_abs_pct_error": 35.66826285683422,
+        "next_dry_err_days": 0.9568399363475759,
+        "share_err_gt1d": 0.4796729840208101
+      },
+      "logged fields (sat + log)": {
+        "spearman": 0.8255863385714567,
+        "median_abs_pct_error": 18.235934250992003,
+        "next_dry_err_days": 0.45962666012791,
+        "share_err_gt1d": 0.18456375838926176
+      }
+    },
+    "S2, real calendar | R2=0.25 | logged=20%": {
+      "M0 regional constant": {
+        "spearman": -0.012698330569623755,
+        "median_abs_pct_error": 39.780023454327484,
+        "next_dry_err_days": 1.0962944938311132,
+        "share_err_gt1d": 0.5392866051384385
+      },
+      "M1 satellite only": {
+        "spearman": 0.3365785274978117,
+        "median_abs_pct_error": 36.34434143013359,
+        "next_dry_err_days": 0.9899735964697598,
+        "share_err_gt1d": 0.4959674066683296
+      },
+      "M2 leak map (attributes)": {
+        "spearman": 0.3079009452072467,
+        "median_abs_pct_error": 37.58060197088117,
+        "next_dry_err_days": 1.0046503944296763,
+        "share_err_gt1d": 0.5023696682464455
+      },
+      "M3 leak map + satellite": {
+        "spearman": 0.42618239633570615,
+        "median_abs_pct_error": 35.33613976023457,
+        "next_dry_err_days": 0.9421891349372604,
+        "share_err_gt1d": 0.4735179180177933
+      },
+      "logged fields (sat + log)": {
+        "spearman": 0.8624945254017208,
+        "median_abs_pct_error": 17.404161598507596,
+        "next_dry_err_days": 0.4641858558535965,
+        "share_err_gt1d": 0.16524701873935263
+      }
+    },
+    "S2, real calendar | R2=0.25 | logged=50%": {
+      "M0 regional constant": {
+        "spearman": -0.015117328564668893,
+        "median_abs_pct_error": 39.69751515623714,
+        "next_dry_err_days": 1.092669253792606,
+        "share_err_gt1d": 0.5392156862745098
+      },
+      "M1 satellite only": {
+        "spearman": 0.32759741653377367,
+        "median_abs_pct_error": 37.01307142791774,
+        "next_dry_err_days": 1.0029671777107403,
+        "share_err_gt1d": 0.502283105022831
+      },
+      "M2 leak map (attributes)": {
+        "spearman": 0.35087487522454613,
+        "median_abs_pct_error": 36.619065984269014,
+        "next_dry_err_days": 0.9950097901028485,
+        "share_err_gt1d": 0.49798549556809024
+      },
+      "M3 leak map + satellite": {
+        "spearman": 0.46964441371831034,
+        "median_abs_pct_error": 34.52566079302538,
+        "next_dry_err_days": 0.9206707815002813,
+        "share_err_gt1d": 0.4637389202256245
+      },
+      "logged fields (sat + log)": {
+        "spearman": 0.858952205654702,
+        "median_abs_pct_error": 17.330022316278534,
+        "next_dry_err_days": 0.4357113345111596,
+        "share_err_gt1d": 0.15635395874916833
+      }
+    },
+    "S2, real calendar | R2=0.5 | logged=5%": {
+      "M0 regional constant": {
+        "spearman": -0.0033559496201866924,
+        "median_abs_pct_error": 39.915826041675196,
+        "next_dry_err_days": 1.1120551300907666,
+        "share_err_gt1d": 0.5455119214586255
+      },
+      "M1 satellite only": {
+        "spearman": 0.36743530198687124,
+        "median_abs_pct_error": 35.85894848498858,
+        "next_dry_err_days": 0.9615741983330506,
+        "share_err_gt1d": 0.4858345021037868
+      },
+      "M2 leak map (attributes)": {
+        "spearman": 0.4807256458090082,
+        "median_abs_pct_error": 34.41955774120993,
+        "next_dry_err_days": 0.9091921695948482,
+        "share_err_gt1d": 0.45610098176718095
+      },
+      "M3 leak map + satellite": {
+        "spearman": 0.5258908114982135,
+        "median_abs_pct_error": 33.57691735220442,
+        "next_dry_err_days": 0.8921787669380237,
+        "share_err_gt1d": 0.4484572230014025
+      },
+      "logged fields (sat + log)": {
+        "spearman": 0.8534874749663481,
+        "median_abs_pct_error": 17.693064428080472,
+        "next_dry_err_days": 0.4418859211781978,
+        "share_err_gt1d": 0.16783216783216784
+      }
+    },
+    "S2, real calendar | R2=0.5 | logged=10%": {
+      "M0 regional constant": {
+        "spearman": -0.008366601766649575,
+        "median_abs_pct_error": 39.99226681258789,
+        "next_dry_err_days": 1.0998927082081957,
+        "share_err_gt1d": 0.5425492382014121
+      },
+      "M1 satellite only": {
+        "spearman": 0.3660595754799265,
+        "median_abs_pct_error": 35.791583092195026,
+        "next_dry_err_days": 0.9597726006101786,
+        "share_err_gt1d": 0.485321441843181
+      },
+      "M2 leak map (attributes)": {
+        "spearman": 0.49856079901355654,
+        "median_abs_pct_error": 34.206294501175556,
+        "next_dry_err_days": 0.905425073680318,
+        "share_err_gt1d": 0.45477517651430693
+      },
+      "M3 leak map + satellite": {
+        "spearman": 0.5330880196014464,
+        "median_abs_pct_error": 33.43025167920644,
+        "next_dry_err_days": 0.8857359186363123,
+        "share_err_gt1d": 0.443701226309922
+      },
+      "logged fields (sat + log)": {
+        "spearman": 0.8033659755282164,
+        "median_abs_pct_error": 16.96008435018095,
+        "next_dry_err_days": 0.42489528222332185,
+        "share_err_gt1d": 0.174496644295302
+      }
+    },
+    "S2, real calendar | R2=0.5 | logged=20%": {
+      "M0 regional constant": {
+        "spearman": -0.01404804859905092,
+        "median_abs_pct_error": 39.96506748218212,
+        "next_dry_err_days": 1.102921053984323,
+        "share_err_gt1d": 0.5432776253429783
+      },
+      "M1 satellite only": {
+        "spearman": 0.36301752750055544,
+        "median_abs_pct_error": 35.76065346520277,
+        "next_dry_err_days": 0.963270416922402,
+        "share_err_gt1d": 0.48607300241124135
+      },
+      "M2 leak map (attributes)": {
+        "spearman": 0.5454672250109077,
+        "median_abs_pct_error": 32.79940032171824,
+        "next_dry_err_days": 0.8649136721258524,
+        "share_err_gt1d": 0.43485490978631414
+      },
+      "M3 leak map + satellite": {
+        "spearman": 0.5702199672673581,
+        "median_abs_pct_error": 32.36300181258625,
+        "next_dry_err_days": 0.8585706553252952,
+        "share_err_gt1d": 0.42720545439427954
+      },
+      "logged fields (sat + log)": {
+        "spearman": 0.8613236050913438,
+        "median_abs_pct_error": 17.156031015621714,
+        "next_dry_err_days": 0.43229302597825114,
+        "share_err_gt1d": 0.14821124361158433
+      }
+    },
+    "S2, real calendar | R2=0.5 | logged=50%": {
+      "M0 regional constant": {
+        "spearman": -0.007682724559829124,
+        "median_abs_pct_error": 39.48667550746029,
+        "next_dry_err_days": 1.0849667916255843,
+        "share_err_gt1d": 0.5370668815471394
+      },
+      "M1 satellite only": {
+        "spearman": 0.364323642179505,
+        "median_abs_pct_error": 35.7332359534459,
+        "next_dry_err_days": 0.9526442619377364,
+        "share_err_gt1d": 0.48079505774912706
+      },
+      "M2 leak map (attributes)": {
+        "spearman": 0.5920939580391084,
+        "median_abs_pct_error": 31.833609722712353,
+        "next_dry_err_days": 0.8410021623122179,
+        "share_err_gt1d": 0.4192855224281493
+      },
+      "M3 leak map + satellite": {
+        "spearman": 0.6145839246005877,
+        "median_abs_pct_error": 30.891161662431738,
+        "next_dry_err_days": 0.8188193875801646,
+        "share_err_gt1d": 0.40424388933655653
+      },
+      "logged fields (sat + log)": {
+        "spearman": 0.8556803404551635,
+        "median_abs_pct_error": 17.76921840865644,
+        "next_dry_err_days": 0.44681046295113447,
+        "share_err_gt1d": 0.1643379906852961
+      }
+    },
+    "S2, real calendar | R2=0.75 | logged=5%": {
+      "M0 regional constant": {
+        "spearman": -0.0039664900818029225,
+        "median_abs_pct_error": 40.24819543443737,
+        "next_dry_err_days": 1.1122507507329131,
+        "share_err_gt1d": 0.5464936886395512
+      },
+      "M1 satellite only": {
+        "spearman": 0.37134688690199,
+        "median_abs_pct_error": 36.37342357449312,
+        "next_dry_err_days": 0.9733615447634087,
+        "share_err_gt1d": 0.48723702664796636
+      },
+      "M2 leak map (attributes)": {
+        "spearman": 0.6539735003276212,
+        "median_abs_pct_error": 29.971099310459536,
+        "next_dry_err_days": 0.7856755953662862,
+        "share_err_gt1d": 0.3873071528751753
+      },
+      "M3 leak map + satellite": {
+        "spearman": 0.6600491801412126,
+        "median_abs_pct_error": 30.004503193227556,
+        "next_dry_err_days": 0.7801464918182668,
+        "share_err_gt1d": 0.38541374474053297
+      },
+      "logged fields (sat + log)": {
+        "spearman": 0.8577308841393348,
+        "median_abs_pct_error": 18.207570127959777,
+        "next_dry_err_days": 0.45823196063569327,
+        "share_err_gt1d": 0.17482517482517482
+      }
+    },
+    "S2, real calendar | R2=0.75 | logged=10%": {
+      "M0 regional constant": {
+        "spearman": -0.007759152863576258,
+        "median_abs_pct_error": 40.03372419522554,
+        "next_dry_err_days": 1.0989137061007508,
+        "share_err_gt1d": 0.5426978818283166
+      },
+      "M1 satellite only": {
+        "spearman": 0.37238663247349796,
+        "median_abs_pct_error": 36.2184575470298,
+        "next_dry_err_days": 0.9698736066815412,
+        "share_err_gt1d": 0.4862876254180602
+      },
+      "M2 leak map (attributes)": {
+        "spearman": 0.6827271136632955,
+        "median_abs_pct_error": 28.85409271289031,
+        "next_dry_err_days": 0.7632862451163289,
+        "share_err_gt1d": 0.37019695280564846
+      },
+      "M3 leak map + satellite": {
+        "spearman": 0.6861692624147085,
+        "median_abs_pct_error": 29.037237032917318,
+        "next_dry_err_days": 0.7609365151701812,
+        "share_err_gt1d": 0.36722408026755854
+      },
+      "logged fields (sat + log)": {
+        "spearman": 0.8018124274325032,
+        "median_abs_pct_error": 18.820616312441775,
+        "next_dry_err_days": 0.48070923248464426,
+        "share_err_gt1d": 0.20469798657718122
+      }
+    },
+    "S2, real calendar | R2=0.75 | logged=20%": {
+      "M0 regional constant": {
+        "spearman": -0.014751598669403477,
+        "median_abs_pct_error": 40.246106248457956,
+        "next_dry_err_days": 1.1046557611897336,
+        "share_err_gt1d": 0.543859649122807
+      },
+      "M1 satellite only": {
+        "spearman": 0.3678497848105617,
+        "median_abs_pct_error": 36.39317727503274,
+        "next_dry_err_days": 0.9782631743131462,
+        "share_err_gt1d": 0.4879022200049888
+      },
+      "M2 leak map (attributes)": {
+        "spearman": 0.7362724469896186,
+        "median_abs_pct_error": 27.59467014503077,
+        "next_dry_err_days": 0.7153764428716558,
+        "share_err_gt1d": 0.33466367340151326
+      },
+      "M3 leak map + satellite": {
+        "spearman": 0.7260361831734218,
+        "median_abs_pct_error": 27.809762598684618,
+        "next_dry_err_days": 0.7185371426253724,
+        "share_err_gt1d": 0.34356032260746655
+      },
+      "logged fields (sat + log)": {
+        "spearman": 0.8576863122524565,
+        "median_abs_pct_error": 16.022648169434415,
+        "next_dry_err_days": 0.41190444279893335,
+        "share_err_gt1d": 0.16183986371379896
+      }
+    },
+    "S2, real calendar | R2=0.75 | logged=50%": {
+      "M0 regional constant": {
+        "spearman": -0.015080343003428386,
+        "median_abs_pct_error": 39.845710813168544,
+        "next_dry_err_days": 1.0996234491376096,
+        "share_err_gt1d": 0.5451248992747784
+      },
+      "M1 satellite only": {
+        "spearman": 0.3684902716638866,
+        "median_abs_pct_error": 36.39028692606378,
+        "next_dry_err_days": 0.9803056656487099,
+        "share_err_gt1d": 0.48965887724952994
+      },
+      "M2 leak map (attributes)": {
+        "spearman": 0.7746781336779555,
+        "median_abs_pct_error": 26.202578486160522,
+        "next_dry_err_days": 0.6804675976992836,
+        "share_err_gt1d": 0.3091592801504163
+      },
+      "M3 leak map + satellite": {
+        "spearman": 0.7636525723831712,
+        "median_abs_pct_error": 25.57074603019339,
+        "next_dry_err_days": 0.6726581200902015,
+        "share_err_gt1d": 0.3074133763094279
+      },
+      "logged fields (sat + log)": {
+        "spearman": 0.8558455093100198,
+        "median_abs_pct_error": 17.108173364571062,
+        "next_dry_err_days": 0.4236664884452086,
+        "share_err_gt1d": 0.16300731869594146
+      }
+    },
+    "daily, VNIR only (PlanetScope-like) | R2=0.0 | logged=5%": {
+      "M0 regional constant": {
+        "spearman": -0.0024961293728058684,
+        "median_abs_pct_error": 39.342863848922235,
+        "next_dry_err_days": 1.086222148861419,
+        "share_err_gt1d": 0.5389200561009818
+      },
+      "M1 satellite only": {
+        "spearman": 0.33735471565061054,
+        "median_abs_pct_error": 38.07835330342934,
+        "next_dry_err_days": 1.0057510036000323,
+        "share_err_gt1d": 0.5025245441795232
+      },
+      "M2 leak map (attributes)": {
+        "spearman": 0.007843736752354948,
+        "median_abs_pct_error": 42.18224378981249,
+        "next_dry_err_days": 1.1587055996062765,
+        "share_err_gt1d": 0.5612201963534362
+      },
+      "M3 leak map + satellite": {
+        "spearman": 0.28265488026344604,
+        "median_abs_pct_error": 38.217354789038744,
+        "next_dry_err_days": 1.025207972336699,
+        "share_err_gt1d": 0.5099579242636746
+      },
+      "logged fields (sat + log)": {
+        "spearman": 0.876711316852162,
+        "median_abs_pct_error": 16.120365320339957,
+        "next_dry_err_days": 0.3988551409762713,
+        "share_err_gt1d": 0.14685314685314685
+      }
+    },
+    "daily, VNIR only (PlanetScope-like) | R2=0.0 | logged=10%": {
+      "M0 regional constant": {
+        "spearman": -0.004597893469220913,
+        "median_abs_pct_error": 38.932449702194305,
+        "next_dry_err_days": 1.080429338322947,
+        "share_err_gt1d": 0.53355629877369
+      },
+      "M1 satellite only": {
+        "spearman": 0.3330100020767792,
+        "median_abs_pct_error": 38.10512565091913,
+        "next_dry_err_days": 1.0073435674700937,
+        "share_err_gt1d": 0.5031586770717206
+      },
+      "M2 leak map (attributes)": {
+        "spearman": 0.021404611556383547,
+        "median_abs_pct_error": 41.70660832829907,
+        "next_dry_err_days": 1.141357656799138,
+        "share_err_gt1d": 0.5548123374210331
+      },
+      "M3 leak map + satellite": {
+        "spearman": 0.32726670785991313,
+        "median_abs_pct_error": 37.44201665956305,
+        "next_dry_err_days": 1.0086528033661395,
+        "share_err_gt1d": 0.5041248606465998
+      },
+      "logged fields (sat + log)": {
+        "spearman": 0.8814301802337985,
+        "median_abs_pct_error": 17.20383293766905,
+        "next_dry_err_days": 0.43132811695395135,
+        "share_err_gt1d": 0.13087248322147652
+      }
+    },
+    "daily, VNIR only (PlanetScope-like) | R2=0.0 | logged=20%": {
+      "M0 regional constant": {
+        "spearman": -0.009793794019543495,
+        "median_abs_pct_error": 39.10694564267377,
+        "next_dry_err_days": 1.0777769041080631,
+        "share_err_gt1d": 0.5330506360688451
+      },
+      "M1 satellite only": {
+        "spearman": 0.3400183991288387,
+        "median_abs_pct_error": 37.79259168147845,
+        "next_dry_err_days": 0.9963248104274172,
+        "share_err_gt1d": 0.49787977051633825
+      },
+      "M2 leak map (attributes)": {
+        "spearman": 0.011162545016795061,
+        "median_abs_pct_error": 41.467180362193496,
+        "next_dry_err_days": 1.122095700455925,
+        "share_err_gt1d": 0.5534214683628502
+      },
+      "M3 leak map + satellite": {
+        "spearman": 0.32098918888689526,
+        "median_abs_pct_error": 36.976467548556826,
+        "next_dry_err_days": 0.9940486793939973,
+        "share_err_gt1d": 0.4970483079737258
+      },
+      "logged fields (sat + log)": {
+        "spearman": 0.8607640717792662,
+        "median_abs_pct_error": 17.726523085512973,
+        "next_dry_err_days": 0.42294451567510905,
+        "share_err_gt1d": 0.15332197614991483
+      }
+    },
+    "daily, VNIR only (PlanetScope-like) | R2=0.0 | logged=50%": {
+      "M0 regional constant": {
+        "spearman": -0.013968847629638013,
+        "median_abs_pct_error": 38.938143035867114,
+        "next_dry_err_days": 1.0734815143060041,
+        "share_err_gt1d": 0.5327692720923985
+      },
+      "M1 satellite only": {
+        "spearman": 0.3346411545579453,
+        "median_abs_pct_error": 38.14996809805025,
+        "next_dry_err_days": 1.0054550358042746,
+        "share_err_gt1d": 0.502686005909213
+      },
+      "M2 leak map (attributes)": {
+        "spearman": -0.008864581392515508,
+        "median_abs_pct_error": 41.09418698102624,
+        "next_dry_err_days": 1.1146724397151488,
+        "share_err_gt1d": 0.5461993016384636
+      },
+      "M3 leak map + satellite": {
+        "spearman": 0.3630779177738003,
+        "median_abs_pct_error": 36.20664711367723,
+        "next_dry_err_days": 0.9601590649820695,
+        "share_err_gt1d": 0.4849583669084072
+      },
+      "logged fields (sat + log)": {
+        "spearman": 0.8684773419175734,
+        "median_abs_pct_error": 16.745246069110703,
+        "next_dry_err_days": 0.41482326949836423,
+        "share_err_gt1d": 0.14570858283433133
+      }
+    },
+    "daily, VNIR only (PlanetScope-like) | R2=0.25 | logged=5%": {
+      "M0 regional constant": {
+        "spearman": -0.0027999692980001586,
+        "median_abs_pct_error": 39.86600720298762,
+        "next_dry_err_days": 1.102429169962746,
+        "share_err_gt1d": 0.5409537166900421
+      },
+      "M1 satellite only": {
+        "spearman": 0.35996816341081317,
+        "median_abs_pct_error": 36.4804026185057,
+        "next_dry_err_days": 0.9886803414508307,
+        "share_err_gt1d": 0.49621318373071527
+      },
+      "M2 leak map (attributes)": {
+        "spearman": 0.2735540889833246,
+        "median_abs_pct_error": 38.49746537795983,
+        "next_dry_err_days": 1.035434818859891,
+        "share_err_gt1d": 0.5145161290322581
+      },
+      "M3 leak map + satellite": {
+        "spearman": 0.3999111868478913,
+        "median_abs_pct_error": 35.67623659419408,
+        "next_dry_err_days": 0.9576737084688247,
+        "share_err_gt1d": 0.4806451612903226
+      },
+      "logged fields (sat + log)": {
+        "spearman": 0.8611535178436586,
+        "median_abs_pct_error": 17.061690999238465,
+        "next_dry_err_days": 0.4291955518268997,
+        "share_err_gt1d": 0.14685314685314685
+      }
+    },
+    "daily, VNIR only (PlanetScope-like) | R2=0.25 | logged=10%": {
+      "M0 regional constant": {
+        "spearman": -0.00791178170989923,
+        "median_abs_pct_error": 39.948006301201616,
+        "next_dry_err_days": 1.0940249629269623,
+        "share_err_gt1d": 0.5401709401709401
+      },
+      "M1 satellite only": {
+        "spearman": 0.3558170480839278,
+        "median_abs_pct_error": 36.35600705644202,
+        "next_dry_err_days": 0.9856204320027819,
+        "share_err_gt1d": 0.49394277220364174
+      },
+      "M2 leak map (attributes)": {
+        "spearman": 0.29418666533745275,
+        "median_abs_pct_error": 38.03616568086835,
+        "next_dry_err_days": 1.0182081652917896,
+        "share_err_gt1d": 0.5082125603864734
+      },
+      "M3 leak map + satellite": {
+        "spearman": 0.4376194425761931,
+        "median_abs_pct_error": 34.75964025655875,
+        "next_dry_err_days": 0.9227108645803623,
+        "share_err_gt1d": 0.4639910813823857
+      },
+      "logged fields (sat + log)": {
+        "spearman": 0.8654326252808889,
+        "median_abs_pct_error": 19.1889492308593,
+        "next_dry_err_days": 0.4640416353178942,
+        "share_err_gt1d": 0.1342281879194631
+      }
+    },
+    "daily, VNIR only (PlanetScope-like) | R2=0.25 | logged=20%": {
+      "M0 regional constant": {
+        "spearman": -0.012698330569623755,
+        "median_abs_pct_error": 39.65265072494443,
+        "next_dry_err_days": 1.0912714952166418,
+        "share_err_gt1d": 0.5395360439012222
+      },
+      "M1 satellite only": {
+        "spearman": 0.36011326154268664,
+        "median_abs_pct_error": 36.215026856079106,
+        "next_dry_err_days": 0.9787916202128573,
+        "share_err_gt1d": 0.4919763864637898
+      },
+      "M2 leak map (attributes)": {
+        "spearman": 0.3167656182369374,
+        "median_abs_pct_error": 37.245434586730205,
+        "next_dry_err_days": 1.0045903149770412,
+        "share_err_gt1d": 0.5021202294836618
+      },
+      "M3 leak map + satellite": {
+        "spearman": 0.46055401971810134,
+        "median_abs_pct_error": 33.74955986369878,
+        "next_dry_err_days": 0.8990750964941556,
+        "share_err_gt1d": 0.45214933067265317
+      },
+      "logged fields (sat + log)": {
+        "spearman": 0.8743744778292267,
+        "median_abs_pct_error": 17.064098142968685,
+        "next_dry_err_days": 0.42853767966053535,
+        "share_err_gt1d": 0.151618398637138
+      }
+    },
+    "daily, VNIR only (PlanetScope-like) | R2=0.25 | logged=50%": {
+      "M0 regional constant": {
+        "spearman": -0.014347330767004764,
+        "median_abs_pct_error": 39.883608686804436,
+        "next_dry_err_days": 1.0931803250605197,
+        "share_err_gt1d": 0.5393499865699705
+      },
+      "M1 satellite only": {
+        "spearman": 0.3600024826628649,
+        "median_abs_pct_error": 36.64086508097136,
+        "next_dry_err_days": 0.9947326629606943,
+        "share_err_gt1d": 0.497313994090787
+      },
+      "M2 leak map (attributes)": {
+        "spearman": 0.35619662941952557,
+        "median_abs_pct_error": 36.65872936102042,
+        "next_dry_err_days": 0.9940632717880562,
+        "share_err_gt1d": 0.4970453934998657
+      },
+      "M3 leak map + satellite": {
+        "spearman": 0.495089230850511,
+        "median_abs_pct_error": 33.3383789470534,
+        "next_dry_err_days": 0.8903283175399026,
+        "share_err_gt1d": 0.44560838033843675
+      },
+      "logged fields (sat + log)": {
+        "spearman": 0.8693655023578929,
+        "median_abs_pct_error": 17.0663046594063,
+        "next_dry_err_days": 0.42362539621296236,
+        "share_err_gt1d": 0.14637391882900866
+      }
+    },
+    "daily, VNIR only (PlanetScope-like) | R2=0.5 | logged=5%": {
+      "M0 regional constant": {
+        "spearman": -0.0032791494177224485,
+        "median_abs_pct_error": 40.253949321886736,
+        "next_dry_err_days": 1.1102425686810586,
+        "share_err_gt1d": 0.5455119214586255
+      },
+      "M1 satellite only": {
+        "spearman": 0.3528101991690006,
+        "median_abs_pct_error": 36.54778664906476,
+        "next_dry_err_days": 0.9903627496060561,
+        "share_err_gt1d": 0.4956521739130435
+      },
+      "M2 leak map (attributes)": {
+        "spearman": 0.5033247457279376,
+        "median_abs_pct_error": 34.180044603152524,
+        "next_dry_err_days": 0.9029526204449954,
+        "share_err_gt1d": 0.4536465638148668
+      },
+      "M3 leak map + satellite": {
+        "spearman": 0.5412039318684939,
+        "median_abs_pct_error": 32.78545380437266,
+        "next_dry_err_days": 0.8570048321753885,
+        "share_err_gt1d": 0.42685834502103787
+      },
+      "logged fields (sat + log)": {
+        "spearman": 0.8592862536524508,
+        "median_abs_pct_error": 19.79021075164229,
+        "next_dry_err_days": 0.4641071793908278,
+        "share_err_gt1d": 0.18181818181818182
+      }
+    },
+    "daily, VNIR only (PlanetScope-like) | R2=0.5 | logged=10%": {
+      "M0 regional constant": {
+        "spearman": -0.008110932314975875,
+        "median_abs_pct_error": 40.114264227754575,
+        "next_dry_err_days": 1.098599748284082,
+        "share_err_gt1d": 0.5417316982534374
+      },
+      "M1 satellite only": {
+        "spearman": 0.3504215213375626,
+        "median_abs_pct_error": 36.42044740077803,
+        "next_dry_err_days": 0.9884794448739704,
+        "share_err_gt1d": 0.4947603121516165
+      },
+      "M2 leak map (attributes)": {
+        "spearman": 0.5061138350591761,
+        "median_abs_pct_error": 33.989230215503454,
+        "next_dry_err_days": 0.8980107366139176,
+        "share_err_gt1d": 0.4519509476031215
+      },
+      "M3 leak map + satellite": {
+        "spearman": 0.5594808060346944,
+        "median_abs_pct_error": 32.11687079621865,
+        "next_dry_err_days": 0.8437837459722912,
+        "share_err_gt1d": 0.42229654403567446
+      },
+      "logged fields (sat + log)": {
+        "spearman": 0.8483608276429985,
+        "median_abs_pct_error": 16.61780695857753,
+        "next_dry_err_days": 0.39935211196101483,
+        "share_err_gt1d": 0.1644295302013423
+      }
+    },
+    "daily, VNIR only (PlanetScope-like) | R2=0.5 | logged=20%": {
+      "M0 regional constant": {
+        "spearman": -0.015113951997896995,
+        "median_abs_pct_error": 39.947428937179275,
+        "next_dry_err_days": 1.103884455018009,
+        "share_err_gt1d": 0.5436933566142845
+      },
+      "M1 satellite only": {
+        "spearman": 0.34792039748893977,
+        "median_abs_pct_error": 36.330724470192614,
+        "next_dry_err_days": 0.9876913153940698,
+        "share_err_gt1d": 0.49463706660014967
+      },
+      "M2 leak map (attributes)": {
+        "spearman": 0.5431782621422131,
+        "median_abs_pct_error": 32.842359007285594,
+        "next_dry_err_days": 0.8658700223991218,
+        "share_err_gt1d": 0.43186164463290927
+      },
+      "M3 leak map + satellite": {
+        "spearman": 0.5903646033775203,
+        "median_abs_pct_error": 31.149774248393857,
+        "next_dry_err_days": 0.8177435518333889,
+        "share_err_gt1d": 0.40342562567556334
+      },
+      "logged fields (sat + log)": {
+        "spearman": 0.8677625988735291,
+        "median_abs_pct_error": 16.31701406653455,
+        "next_dry_err_days": 0.4092149804304155,
+        "share_err_gt1d": 0.14821124361158433
+      }
+    },
+    "daily, VNIR only (PlanetScope-like) | R2=0.5 | logged=50%": {
+      "M0 regional constant": {
+        "spearman": -0.014344832471075528,
+        "median_abs_pct_error": 39.741941065162514,
+        "next_dry_err_days": 1.089603331120483,
+        "share_err_gt1d": 0.5372011818426
+      },
+      "M1 satellite only": {
+        "spearman": 0.3555236244529158,
+        "median_abs_pct_error": 36.32736139801069,
+        "next_dry_err_days": 0.9861878417923653,
+        "share_err_gt1d": 0.4940907869997314
+      },
+      "M2 leak map (attributes)": {
+        "spearman": 0.5850741974922846,
+        "median_abs_pct_error": 31.764758429706553,
+        "next_dry_err_days": 0.8419504056894316,
+        "share_err_gt1d": 0.41606231533709376
+      },
+      "M3 leak map + satellite": {
+        "spearman": 0.6392629993079924,
+        "median_abs_pct_error": 29.98966077530074,
+        "next_dry_err_days": 0.7797132383566527,
+        "share_err_gt1d": 0.3836959441310771
+      },
+      "logged fields (sat + log)": {
+        "spearman": 0.8675971533432555,
+        "median_abs_pct_error": 17.479815252829138,
+        "next_dry_err_days": 0.4256951855980464,
+        "share_err_gt1d": 0.15236194278110446
+      }
+    },
+    "daily, VNIR only (PlanetScope-like) | R2=0.75 | logged=5%": {
+      "M0 regional constant": {
+        "spearman": -0.0023974792545694325,
+        "median_abs_pct_error": 40.1853135234294,
+        "next_dry_err_days": 1.110227119547326,
+        "share_err_gt1d": 0.5467741935483871
+      },
+      "M1 satellite only": {
+        "spearman": 0.3296023302911261,
+        "median_abs_pct_error": 37.232977707841926,
+        "next_dry_err_days": 0.9879037479668478,
+        "share_err_gt1d": 0.4964235624123422
+      },
+      "M2 leak map (attributes)": {
+        "spearman": 0.6826065739259423,
+        "median_abs_pct_error": 28.812389435245944,
+        "next_dry_err_days": 0.7539554408266258,
+        "share_err_gt1d": 0.3626227208976157
+      },
+      "M3 leak map + satellite": {
+        "spearman": 0.6513303829042117,
+        "median_abs_pct_error": 29.35790654007478,
+        "next_dry_err_days": 0.7632421838091488,
+        "share_err_gt1d": 0.37699859747545583
+      },
+      "logged fields (sat + log)": {
+        "spearman": 0.8695992974161987,
+        "median_abs_pct_error": 16.20446872177101,
+        "next_dry_err_days": 0.4162592939022911,
+        "share_err_gt1d": 0.16783216783216784
+      }
+    },
+    "daily, VNIR only (PlanetScope-like) | R2=0.75 | logged=10%": {
+      "M0 regional constant": {
+        "spearman": -0.005586784234731856,
+        "median_abs_pct_error": 40.233198737879434,
+        "next_dry_err_days": 1.1031132463853268,
+        "share_err_gt1d": 0.5432924563359346
+      },
+      "M1 satellite only": {
+        "spearman": 0.32637619616321517,
+        "median_abs_pct_error": 37.21609364980875,
+        "next_dry_err_days": 0.9877102589776285,
+        "share_err_gt1d": 0.49572649572649574
+      },
+      "M2 leak map (attributes)": {
+        "spearman": 0.6853671926486663,
+        "median_abs_pct_error": 29.07071053232339,
+        "next_dry_err_days": 0.7582036178058731,
+        "share_err_gt1d": 0.36863619472315123
+      },
+      "M3 leak map + satellite": {
+        "spearman": 0.6944517682929163,
+        "median_abs_pct_error": 28.188822078445398,
+        "next_dry_err_days": 0.7306106101367975,
+        "share_err_gt1d": 0.35384615384615387
+      },
+      "logged fields (sat + log)": {
+        "spearman": 0.8598759474160699,
+        "median_abs_pct_error": 16.1276212650472,
+        "next_dry_err_days": 0.4021263400666508,
+        "share_err_gt1d": 0.1610738255033557
+      }
+    },
+    "daily, VNIR only (PlanetScope-like) | R2=0.75 | logged=20%": {
+      "M0 regional constant": {
+        "spearman": -0.012831195236317271,
+        "median_abs_pct_error": 40.16068374343183,
+        "next_dry_err_days": 1.1073956926854338,
+        "share_err_gt1d": 0.543527064105762
+      },
+      "M1 satellite only": {
+        "spearman": 0.3318670421336266,
+        "median_abs_pct_error": 37.2390152050514,
+        "next_dry_err_days": 0.9865455469718079,
+        "share_err_gt1d": 0.4948865053629334
+      },
+      "M2 leak map (attributes)": {
+        "spearman": 0.7344930656479544,
+        "median_abs_pct_error": 27.284767620749655,
+        "next_dry_err_days": 0.7086549987978241,
+        "share_err_gt1d": 0.33649289099526064
+      },
+      "M3 leak map + satellite": {
+        "spearman": 0.7332684955671445,
+        "median_abs_pct_error": 26.611193989750248,
+        "next_dry_err_days": 0.6964650610683991,
+        "share_err_gt1d": 0.32352207533050636
+      },
+      "logged fields (sat + log)": {
+        "spearman": 0.8611800878522476,
+        "median_abs_pct_error": 16.758926098591612,
+        "next_dry_err_days": 0.4107729647647149,
+        "share_err_gt1d": 0.141396933560477
+      }
+    },
+    "daily, VNIR only (PlanetScope-like) | R2=0.75 | logged=50%": {
+      "M0 regional constant": {
+        "spearman": -0.01296430876475413,
+        "median_abs_pct_error": 39.779792484631045,
+        "next_dry_err_days": 1.1009340113611117,
+        "share_err_gt1d": 0.5445876980929358
+      },
+      "M1 satellite only": {
+        "spearman": 0.3345677741109392,
+        "median_abs_pct_error": 36.6752445211548,
+        "next_dry_err_days": 0.9865455469718079,
+        "share_err_gt1d": 0.49556809024979853
+      },
+      "M2 leak map (attributes)": {
+        "spearman": 0.7767421527385527,
+        "median_abs_pct_error": 26.131049627230716,
+        "next_dry_err_days": 0.682047507256907,
+        "share_err_gt1d": 0.3044587698092936
+      },
+      "M3 leak map + satellite": {
+        "spearman": 0.7751809787333342,
+        "median_abs_pct_error": 24.91136755692695,
+        "next_dry_err_days": 0.6509139555055266,
+        "share_err_gt1d": 0.29196884233145315
+      },
+      "logged fields (sat + log)": {
+        "spearman": 0.8643977944894978,
+        "median_abs_pct_error": 16.62183357063454,
+        "next_dry_err_days": 0.414837566806459,
+        "share_err_gt1d": 0.15169660678642716
+      }
+    }
+  }
+}

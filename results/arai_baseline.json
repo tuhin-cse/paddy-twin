@@ -1,0 +1,269 @@
+{
+  "prior": {
+    "arai": {
+      "ponded_today_bacc": 0.607,
+      "next_dry_err_all_days": 1.829,
+      "share_err_gt1d_all": 0.627,
+      "irrigate_by_tomorrow_bacc": 0.566,
+      "ci90_coverage_all": 0.883,
+      "next_dry_err_ponded_days": 1.542,
+      "ci90_coverage_ponded": 0.838,
+      "season_sp": {
+        "spearman": 0.030734031183507794,
+        "median_abs_pct_err": 37.32076702894535,
+        "next_dry_err_days": 1.0536733305382158,
+        "share_err_gt1d": 0.52
+      },
+      "threshold_spearman": 0.3600397541704735,
+      "awd_farmer_detection_bacc": 0.5257787112625822
+    },
+    "arai_logs": {
+      "ponded_today_bacc": 0.727,
+      "next_dry_err_all_days": 1.629,
+      "share_err_gt1d_all": 0.587,
+      "irrigate_by_tomorrow_bacc": 0.696,
+      "ci90_coverage_all": 0.715,
+      "next_dry_err_ponded_days": 1.8,
+      "ci90_coverage_ponded": 0.664,
+      "season_sp": {
+        "spearman": 0.030734031183507794,
+        "median_abs_pct_err": 37.32076702894535,
+        "next_dry_err_days": 1.0536733305382158,
+        "share_err_gt1d": 0.52
+      },
+      "threshold_spearman": 0.09171992416635096,
+      "awd_farmer_detection_bacc": 0.5279153787218304
+    },
+    "kgml": {
+      "ponded_today_bacc": 0.816,
+      "next_dry_err_all_days": 0.629,
+      "share_err_gt1d_all": 0.321,
+      "irrigate_by_tomorrow_bacc": 0.815,
+      "ci90_coverage_all": 0.94,
+      "next_dry_err_ponded_days": 0.767,
+      "ci90_coverage_ponded": 0.911,
+      "season_sp": {
+        "spearman": 0.9569126887281723,
+        "median_abs_pct_err": 10.478829919036018,
+        "next_dry_err_days": 0.2593704158371575,
+        "share_err_gt1d": 0.0195,
+        "ci90_coverage": 0.9425,
+        "rho_a": 0.946414207023173,
+        "rho_b": 0.7990419407604852,
+        "rho_c": 0.12100613729691163,
+        "rho_w": -0.028588447147111784
+      }
+    },
+    "kgml_state_regional_law": {
+      "ponded_today_bacc": 0.816,
+      "next_dry_err_all_days": 1.117,
+      "share_err_gt1d_all": 0.458,
+      "irrigate_by_tomorrow_bacc": 0.789,
+      "ci90_coverage_all": 0.795,
+      "next_dry_err_ponded_days": 1.375,
+      "ci90_coverage_ponded": 0.692
+    },
+    "true_state_kgml_law": {
+      "ponded_today_bacc": 1.0,
+      "next_dry_err_all_days": 0.167,
+      "share_err_gt1d_all": 0.077,
+      "irrigate_by_tomorrow_bacc": 0.99,
+      "ci90_coverage_all": 0.971,
+      "next_dry_err_ponded_days": 0.308,
+      "ci90_coverage_ponded": 0.955
+    },
+    "true_state_regional_law": {
+      "ponded_today_bacc": 1.0,
+      "next_dry_err_all_days": 0.55,
+      "share_err_gt1d_all": 0.266,
+      "irrigate_by_tomorrow_bacc": 0.967,
+      "ci90_coverage_all": 0.339,
+      "next_dry_err_ponded_days": 1.0,
+      "ci90_coverage_ponded": 0.058
+    },
+    "regional_theta": [
+      3.5166,
+      0.0715,
+      0.006,
+      0.25
+    ]
+  },
+  "reality": {
+    "arai": {
+      "ponded_today_bacc": 0.586,
+      "next_dry_err_all_days": 1.958,
+      "share_err_gt1d_all": 0.634,
+      "irrigate_by_tomorrow_bacc": 0.552,
+      "ci90_coverage_all": 0.853,
+      "next_dry_err_ponded_days": 1.625,
+      "ci90_coverage_ponded": 0.796,
+      "season_sp": {
+        "spearman": 0.007601131900282974,
+        "median_abs_pct_err": 41.541401160598,
+        "next_dry_err_days": 1.1973919305584089,
+        "share_err_gt1d": 0.577
+      },
+      "threshold_spearman": 0.3951304434163021,
+      "awd_farmer_detection_bacc": 0.5383643515406724
+    },
+    "arai_logs": {
+      "ponded_today_bacc": 0.686,
+      "next_dry_err_all_days": 2.125,
+      "share_err_gt1d_all": 0.632,
+      "irrigate_by_tomorrow_bacc": 0.653,
+      "ci90_coverage_all": 0.593,
+      "next_dry_err_ponded_days": 2.379,
+      "ci90_coverage_ponded": 0.527,
+      "season_sp": {
+        "spearman": 0.007601131900282974,
+        "median_abs_pct_err": 41.541401160598,
+        "next_dry_err_days": 1.1973919305584089,
+        "share_err_gt1d": 0.577
+      },
+      "threshold_spearman": 0.07262237882140793,
+      "awd_farmer_detection_bacc": 0.5285870505475851
+    },
+    "kgml": {
+      "ponded_today_bacc": 0.759,
+      "next_dry_err_all_days": 0.875,
+      "share_err_gt1d_all": 0.414,
+      "irrigate_by_tomorrow_bacc": 0.747,
+      "ci90_coverage_all": 0.875,
+      "next_dry_err_ponded_days": 1.017,
+      "ci90_coverage_ponded": 0.843,
+      "season_sp": {
+        "spearman": 0.8998561484640372,
+        "median_abs_pct_err": 18.314234639811765,
+        "next_dry_err_days": 0.43331351200584445,
+        "share_err_gt1d": 0.1345,
+        "ci90_coverage": 0.741,
+        "rho_a": 0.8884371207650292,
+        "rho_b": 0.8204374991093748,
+        "rho_c": 0.12215444303861075,
+        "rho_w": 0.05786305896576474
+      }
+    },
+    "kgml_state_regional_law": {
+      "ponded_today_bacc": 0.759,
+      "next_dry_err_all_days": 1.55,
+      "share_err_gt1d_all": 0.565,
+      "irrigate_by_tomorrow_bacc": 0.717,
+      "ci90_coverage_all": 0.707,
+      "next_dry_err_ponded_days": 1.75,
+      "ci90_coverage_ponded": 0.597
+    },
+    "true_state_kgml_law": {
+      "ponded_today_bacc": 1.0,
+      "next_dry_err_all_days": 0.283,
+      "share_err_gt1d_all": 0.151,
+      "irrigate_by_tomorrow_bacc": 0.976,
+      "ci90_coverage_all": 0.871,
+      "next_dry_err_ponded_days": 0.517,
+      "ci90_coverage_ponded": 0.814
+    },
+    "true_state_regional_law": {
+      "ponded_today_bacc": 1.0,
+      "next_dry_err_all_days": 0.7,
+      "share_err_gt1d_all": 0.313,
+      "irrigate_by_tomorrow_bacc": 0.946,
+      "ci90_coverage_all": 0.289,
+      "next_dry_err_ponded_days": 1.2,
+      "ci90_coverage_ponded": 0.042
+    },
+    "regional_theta": [
+      3.1217,
+      0.1222,
+      0.006,
+      0.25
+    ]
+  },
+  "reality_systematic": {
+    "arai": {
+      "ponded_today_bacc": 0.578,
+      "next_dry_err_all_days": 1.9,
+      "share_err_gt1d_all": 0.625,
+      "irrigate_by_tomorrow_bacc": 0.556,
+      "ci90_coverage_all": 0.817,
+      "next_dry_err_ponded_days": 1.792,
+      "ci90_coverage_ponded": 0.741,
+      "season_sp": {
+        "spearman": -0.02332195783048946,
+        "median_abs_pct_err": 41.16447366324008,
+        "next_dry_err_days": 1.1153456017009338,
+        "share_err_gt1d": 0.5425
+      },
+      "threshold_spearman": 0.39127788944679653,
+      "awd_farmer_detection_bacc": 0.5284768292608635
+    },
+    "arai_logs": {
+      "ponded_today_bacc": 0.653,
+      "next_dry_err_all_days": 2.346,
+      "share_err_gt1d_all": 0.663,
+      "irrigate_by_tomorrow_bacc": 0.635,
+      "ci90_coverage_all": 0.528,
+      "next_dry_err_ponded_days": 2.538,
+      "ci90_coverage_ponded": 0.46,
+      "season_sp": {
+        "spearman": -0.02332195783048946,
+        "median_abs_pct_err": 41.16447366324008,
+        "next_dry_err_days": 1.1153456017009338,
+        "share_err_gt1d": 0.5425
+      },
+      "threshold_spearman": 0.03498719659065791,
+      "awd_farmer_detection_bacc": 0.5005665515287754
+    },
+    "kgml": {
+      "ponded_today_bacc": 0.698,
+      "next_dry_err_all_days": 1.008,
+      "share_err_gt1d_all": 0.482,
+      "irrigate_by_tomorrow_bacc": 0.707,
+      "ci90_coverage_all": 0.811,
+      "next_dry_err_ponded_days": 1.075,
+      "ci90_coverage_ponded": 0.779,
+      "season_sp": {
+        "spearman": 0.8854553288638322,
+        "median_abs_pct_err": 21.09141362021908,
+        "next_dry_err_days": 0.4759529463664476,
+        "share_err_gt1d": 0.1935,
+        "ci90_coverage": 0.676,
+        "rho_a": 0.8673706522493593,
+        "rho_b": 0.8120161265040317,
+        "rho_c": 0.09400213300053324,
+        "rho_w": 0.06987563796890948
+      }
+    },
+    "kgml_state_regional_law": {
+      "ponded_today_bacc": 0.698,
+      "next_dry_err_all_days": 1.783,
+      "share_err_gt1d_all": 0.618,
+      "irrigate_by_tomorrow_bacc": 0.683,
+      "ci90_coverage_all": 0.623,
+      "next_dry_err_ponded_days": 1.867,
+      "ci90_coverage_ponded": 0.511
+    },
+    "true_state_kgml_law": {
+      "ponded_today_bacc": 1.0,
+      "next_dry_err_all_days": 0.317,
+      "share_err_gt1d_all": 0.174,
+      "irrigate_by_tomorrow_bacc": 0.977,
+      "ci90_coverage_all": 0.817,
+      "next_dry_err_ponded_days": 0.567,
+      "ci90_coverage_ponded": 0.737
+    },
+    "true_state_regional_law": {
+      "ponded_today_bacc": 1.0,
+      "next_dry_err_all_days": 0.65,
+      "share_err_gt1d_all": 0.298,
+      "irrigate_by_tomorrow_bacc": 0.957,
+      "ci90_coverage_all": 0.303,
+      "next_dry_err_ponded_days": 1.117,
+      "ci90_coverage_ponded": 0.05
+    },
+    "regional_theta": [
+      4.0352,
+      0.1211,
+      0.006,
+      0.25
+    ]
+  }
+}

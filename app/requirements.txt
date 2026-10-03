@@ -1,0 +1,6 @@
+# Paddy Twin server (torch is installed separately as the CPU build; see app/Dockerfile)
+numpy>=1.24
+pandas>=2.0
+fastapi>=0.110
+uvicorn>=0.29
+scipy>=1.10

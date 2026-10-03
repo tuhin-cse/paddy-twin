@@ -1,0 +1,42 @@
+{
+  "S0 optical, 1 season": {
+    "share_fields_never_dry": 0.334,
+    "spearman": 0.09715635602109915,
+    "median_abs_pct_error": 38.17795151026683,
+    "median_abs_pct_error_never_dry": 36.724656156535744,
+    "ci90_coverage": 0.823,
+    "next_dry_err_days": 1.0527839390580014,
+    "regional_const_err_days": 1.0821243481093936,
+    "share_err_gt1d": 0.523
+  },
+  "S2 + app date & pump hours": {
+    "share_fields_never_dry": 0.334,
+    "spearman": 0.8504636230150139,
+    "median_abs_pct_error": 17.859366889449333,
+    "median_abs_pct_error_never_dry": 15.668248910877278,
+    "ci90_coverage": 0.802,
+    "next_dry_err_days": 0.4574010067700496,
+    "regional_const_err_days": 1.0821243481093936,
+    "share_err_gt1d": 0.182
+  },
+  "S5 optical+SAR, 3 seasons": {
+    "share_fields_never_dry": 0.056,
+    "spearman": 0.20588449388449392,
+    "median_abs_pct_error": 37.1679234539702,
+    "median_abs_pct_error_never_dry": 35.96726581004557,
+    "ci90_coverage": 0.78,
+    "next_dry_err_days": 1.0286514184029643,
+    "regional_const_err_days": 1.0821243481093936,
+    "share_err_gt1d": 0.512
+  },
+  "S6 optical+SAR+app (date, hours), 3 s": {
+    "share_fields_never_dry": 0.056,
+    "spearman": 0.9031042831042831,
+    "median_abs_pct_error": 16.099815181019544,
+    "median_abs_pct_error_never_dry": 24.051126959991986,
+    "ci90_coverage": 0.769,
+    "next_dry_err_days": 0.4133940535904901,
+    "regional_const_err_days": 1.0821243481093936,
+    "share_err_gt1d": 0.113
+  }
+}

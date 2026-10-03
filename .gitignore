@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+data/cache/
+.venv/
+# Local secrets (API keys). Template: .env.example
+.env
+.env.*
+!.env.example
+results/models/ablation/*.pt
+*.whl

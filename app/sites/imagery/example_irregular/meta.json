@@ -1,0 +1,19 @@
+{
+ "center_lonlat": [
+  89.98683014537303,
+  25.20288571029849
+ ],
+ "half_size_m": 3000.0,
+ "px": 600,
+ "dates": [
+  "2024-01-29",
+  "2024-02-10",
+  "2024-02-23",
+  "2024-03-06",
+  "2024-03-14",
+  "2024-04-13"
+ ],
+ "source": "Sentinel-2 L2A true colour (TCI, 10 m), Element 84 Earth Search on AWS Open Data",
+ "attribution": "Contains modified Copernicus Sentinel data 2024",
+ "site": "example_irregular"
+}

@@ -1,0 +1,14 @@
+{
+ "label": "Demo campaign (synthetic, not field data)",
+ "site": "example_irregular",
+ "start": "2024-01-15",
+ "end": "2024-04-14",
+ "synthetic": true,
+ "source": "scripts/make_demo_campaign.py: simulator v2, random-mismatch world, NISAR on",
+ "demo_injected_issues": [
+  "logger L07 stops on 2024-03-10 (dead battery)",
+  "logger L12 has no readings 2024-02-24 to 2024-02-29 (data gap)",
+  "logger L20 drifts upwards by 1.5 mm/day from 2024-02-24 (sensor drift)",
+  "34 of 134 farmers never use the app (no log events)"
+ ]
+}

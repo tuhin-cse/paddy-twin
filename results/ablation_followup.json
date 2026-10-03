@@ -1,0 +1,448 @@
+{
+  "nonloggers": {
+    "prior": {
+      "S0-P1-F0-L1": {
+        "loggers": {
+          "sp_log_bias": -0.012026172994554163,
+          "sp_next_dry_err_days": 0.2726631407103328,
+          "sp_median_abs_pct_err": 10.74924491381274,
+          "sp_spearman": 0.9561081375356,
+          "fc_ponded_today_bacc": 0.6766833579501913,
+          "fc_next_dry_err_days": 0.7999999999999999,
+          "fc_irrigate_by_tomorrow_bacc": 0.7460403562369323,
+          "fc_ci90_coverage": 0.9468503937007874
+        },
+        "non_loggers": {
+          "sp_log_bias": -0.00570351170105987,
+          "sp_next_dry_err_days": 0.6312586490124565,
+          "sp_median_abs_pct_err": 24.6576983863648,
+          "sp_spearman": 0.7185871717173881,
+          "fc_ponded_today_bacc": 0.5051455189051098,
+          "fc_next_dry_err_days": 1.9541666666666666,
+          "fc_irrigate_by_tomorrow_bacc": 0.5384661970200787,
+          "fc_ci90_coverage": 0.899390243902439
+        }
+      },
+      "S0-P1-F1-L1": {
+        "loggers": {
+          "sp_log_bias": 0.0010142952438492638,
+          "sp_next_dry_err_days": 0.270116619788233,
+          "sp_median_abs_pct_err": 10.983177385180658,
+          "sp_spearman": 0.9532622009371193,
+          "fc_ponded_today_bacc": 0.6730952460692752,
+          "fc_next_dry_err_days": 0.8416666666666665,
+          "fc_irrigate_by_tomorrow_bacc": 0.7228310284897558,
+          "fc_ci90_coverage": 0.932742782152231
+        },
+        "non_loggers": {
+          "sp_log_bias": -0.013595962651911302,
+          "sp_next_dry_err_days": 0.6404686967669666,
+          "sp_median_abs_pct_err": 24.73085515120318,
+          "sp_spearman": 0.7181447489581145,
+          "fc_ponded_today_bacc": 0.5006556114611439,
+          "fc_next_dry_err_days": 1.8125000000000002,
+          "fc_irrigate_by_tomorrow_bacc": 0.5475558479423981,
+          "fc_ci90_coverage": 0.8804200542005419
+        }
+      },
+      "S1-P1-F0-L1": {
+        "loggers": {
+          "sp_log_bias": -0.004040293552485582,
+          "sp_next_dry_err_days": 0.2422610946411834,
+          "sp_median_abs_pct_err": 9.855277637156764,
+          "sp_spearman": 0.9609618640513999,
+          "fc_ponded_today_bacc": 0.78642204285864,
+          "fc_next_dry_err_days": 0.6333333333333337,
+          "fc_irrigate_by_tomorrow_bacc": 0.7920269097043243,
+          "fc_ci90_coverage": 0.9481627296587926
+        },
+        "non_loggers": {
+          "sp_log_bias": -0.01541445404282039,
+          "sp_next_dry_err_days": 0.6164173882729627,
+          "sp_median_abs_pct_err": 23.327333171020907,
+          "sp_spearman": 0.7437187542940904,
+          "fc_ponded_today_bacc": 0.6443871817751784,
+          "fc_next_dry_err_days": 1.8041666666666665,
+          "fc_irrigate_by_tomorrow_bacc": 0.5974698782282374,
+          "fc_ci90_coverage": 0.9098915989159891
+        }
+      },
+      "S1-P1-F1-L1": {
+        "loggers": {
+          "sp_log_bias": 0.00393160362220435,
+          "sp_next_dry_err_days": 0.2526656074646121,
+          "sp_median_abs_pct_err": 10.45565638748023,
+          "sp_spearman": 0.9563192875226877,
+          "fc_ponded_today_bacc": 0.7877882646560023,
+          "fc_next_dry_err_days": 0.6250000000000004,
+          "fc_irrigate_by_tomorrow_bacc": 0.7830705708239387,
+          "fc_ci90_coverage": 0.9452099737532809
+        },
+        "non_loggers": {
+          "sp_log_bias": -0.013550604559321257,
+          "sp_next_dry_err_days": 0.6127808208964862,
+          "sp_median_abs_pct_err": 23.532235332906108,
+          "sp_spearman": 0.7415908377290755,
+          "fc_ponded_today_bacc": 0.6291578106738874,
+          "fc_next_dry_err_days": 1.7041666666666666,
+          "fc_irrigate_by_tomorrow_bacc": 0.588513587700166,
+          "fc_ci90_coverage": 0.8763550135501356
+        }
+      }
+    },
+    "reality": {
+      "S0-P1-F0-L1": {
+        "loggers": {
+          "sp_log_bias": -0.06711081254949408,
+          "sp_next_dry_err_days": 0.4624274901837513,
+          "sp_median_abs_pct_err": 18.839398363354825,
+          "sp_spearman": 0.9032845070441872,
+          "fc_ponded_today_bacc": 0.6274199863636016,
+          "fc_next_dry_err_days": 1.125,
+          "fc_irrigate_by_tomorrow_bacc": 0.6524914802136327,
+          "fc_ci90_coverage": 0.8805774278215223
+        },
+        "non_loggers": {
+          "sp_log_bias": -0.3148140921043192,
+          "sp_next_dry_err_days": 0.9293380456776936,
+          "sp_median_abs_pct_err": 33.28822027025229,
+          "sp_spearman": 0.6960775929441084,
+          "fc_ponded_today_bacc": 0.503575437387483,
+          "fc_next_dry_err_days": 1.5833333333333333,
+          "fc_irrigate_by_tomorrow_bacc": 0.5457615334258995,
+          "fc_ci90_coverage": 0.9349593495934959
+        }
+      },
+      "S0-P1-F1-L1": {
+        "loggers": {
+          "sp_log_bias": -0.052855051373882994,
+          "sp_next_dry_err_days": 0.4700640225976771,
+          "sp_median_abs_pct_err": 19.32075471102784,
+          "sp_spearman": 0.9011966348271158,
+          "fc_ponded_today_bacc": 0.6175181403104172,
+          "fc_next_dry_err_days": 1.1333333333333335,
+          "fc_irrigate_by_tomorrow_bacc": 0.647359367583967,
+          "fc_ci90_coverage": 0.8789370078740157
+        },
+        "non_loggers": {
+          "sp_log_bias": -0.30278918056314075,
+          "sp_next_dry_err_days": 0.9268415052193801,
+          "sp_median_abs_pct_err": 32.117191640421375,
+          "sp_spearman": 0.695871438825516,
+          "fc_ponded_today_bacc": 0.49995881232838496,
+          "fc_next_dry_err_days": 1.5500000000000005,
+          "fc_irrigate_by_tomorrow_bacc": 0.5535745984282617,
+          "fc_ci90_coverage": 0.9268292682926829
+        }
+      },
+      "S1-P1-F0-L1": {
+        "loggers": {
+          "sp_log_bias": -0.06011210524463202,
+          "sp_next_dry_err_days": 0.4332643745303255,
+          "sp_median_abs_pct_err": 18.31453842452328,
+          "sp_spearman": 0.9089654646083488,
+          "fc_ponded_today_bacc": 0.7521919786148249,
+          "fc_next_dry_err_days": 0.8833333333333334,
+          "fc_irrigate_by_tomorrow_bacc": 0.7287984470006403,
+          "fc_ci90_coverage": 0.8717191601049868
+        },
+        "non_loggers": {
+          "sp_log_bias": -0.26866105468713797,
+          "sp_next_dry_err_days": 0.8567147799035686,
+          "sp_median_abs_pct_err": 31.234921840886088,
+          "sp_spearman": 0.7001012759816472,
+          "fc_ponded_today_bacc": 0.6291513266469716,
+          "fc_next_dry_err_days": 1.5666666666666667,
+          "fc_irrigate_by_tomorrow_bacc": 0.5888736677391557,
+          "fc_ci90_coverage": 0.9190379403794037
+        }
+      },
+      "S1-P1-F1-L1": {
+        "loggers": {
+          "sp_log_bias": -0.05979952467667447,
+          "sp_next_dry_err_days": 0.4475278295059275,
+          "sp_median_abs_pct_err": 18.727742727118795,
+          "sp_spearman": 0.9032401808791293,
+          "fc_ponded_today_bacc": 0.7540341055267374,
+          "fc_next_dry_err_days": 0.8916666666666669,
+          "fc_irrigate_by_tomorrow_bacc": 0.7214861773918212,
+          "fc_ci90_coverage": 0.8822178477690289
+        },
+        "non_loggers": {
+          "sp_log_bias": -0.2675368517952902,
+          "sp_next_dry_err_days": 0.8270995007940553,
+          "sp_median_abs_pct_err": 30.034303781784423,
+          "sp_spearman": 0.7046741995374883,
+          "fc_ponded_today_bacc": 0.6226861043369153,
+          "fc_next_dry_err_days": 1.5,
+          "fc_irrigate_by_tomorrow_bacc": 0.5764364466484765,
+          "fc_ci90_coverage": 0.9027777777777777
+        }
+      }
+    },
+    "reality_systematic": {
+      "S0-P1-F0-L1": {
+        "loggers": {
+          "sp_log_bias": 0.0861280763655051,
+          "sp_next_dry_err_days": 0.4565566095811169,
+          "sp_median_abs_pct_err": 19.47205240891314,
+          "sp_spearman": 0.89333569724291,
+          "fc_ponded_today_bacc": 0.5945131228674271,
+          "fc_next_dry_err_days": 1.225,
+          "fc_irrigate_by_tomorrow_bacc": 0.6392048511160144,
+          "fc_ci90_coverage": 0.8270997375328083
+        },
+        "non_loggers": {
+          "sp_log_bias": -0.277741308022376,
+          "sp_next_dry_err_days": 0.8726655038744797,
+          "sp_median_abs_pct_err": 30.949216798227773,
+          "sp_spearman": 0.7328699693728635,
+          "fc_ponded_today_bacc": 0.508570017469305,
+          "fc_next_dry_err_days": 1.6416666666666668,
+          "fc_irrigate_by_tomorrow_bacc": 0.5463527013884173,
+          "fc_ci90_coverage": 0.926490514905149
+        }
+      },
+      "S0-P1-F1-L1": {
+        "loggers": {
+          "sp_log_bias": 0.09688737498239554,
+          "sp_next_dry_err_days": 0.4700270371410169,
+          "sp_median_abs_pct_err": 20.507971393562762,
+          "sp_spearman": 0.890445812064154,
+          "fc_ponded_today_bacc": 0.5896673926023875,
+          "fc_next_dry_err_days": 1.25,
+          "fc_irrigate_by_tomorrow_bacc": 0.6426994146372776,
+          "fc_ci90_coverage": 0.8428477690288713
+        },
+        "non_loggers": {
+          "sp_log_bias": -0.27805565348768335,
+          "sp_next_dry_err_days": 0.8546414402628062,
+          "sp_median_abs_pct_err": 30.845246119091073,
+          "sp_spearman": 0.730694783965774,
+          "fc_ponded_today_bacc": 0.5027608573693543,
+          "fc_next_dry_err_days": 1.5666666666666664,
+          "fc_irrigate_by_tomorrow_bacc": 0.5451298188206367,
+          "fc_ci90_coverage": 0.9173441734417344
+        }
+      },
+      "S1-P1-F0-L1": {
+        "loggers": {
+          "sp_log_bias": 0.10300028936898292,
+          "sp_next_dry_err_days": 0.47718181420384376,
+          "sp_median_abs_pct_err": 20.991821324347477,
+          "sp_spearman": 0.8922261815228542,
+          "fc_ponded_today_bacc": 0.7021359116676288,
+          "fc_next_dry_err_days": 1.0666666666666664,
+          "fc_irrigate_by_tomorrow_bacc": 0.7009624355663416,
+          "fc_ci90_coverage": 0.806758530183727
+        },
+        "non_loggers": {
+          "sp_log_bias": -0.2520313537220001,
+          "sp_next_dry_err_days": 0.8193665639236047,
+          "sp_median_abs_pct_err": 29.979785956008214,
+          "sp_spearman": 0.7355725178725471,
+          "fc_ponded_today_bacc": 0.6083035626621863,
+          "fc_next_dry_err_days": 1.6083333333333336,
+          "fc_irrigate_by_tomorrow_bacc": 0.5910060703476432,
+          "fc_ci90_coverage": 0.9200542005420055
+        }
+      },
+      "S1-P1-F1-L1": {
+        "loggers": {
+          "sp_log_bias": 0.10179610816341349,
+          "sp_next_dry_err_days": 0.48179458631586347,
+          "sp_median_abs_pct_err": 20.608523805790146,
+          "sp_spearman": 0.8850791995522985,
+          "fc_ponded_today_bacc": 0.6989233123053591,
+          "fc_next_dry_err_days": 1.0583333333333331,
+          "fc_irrigate_by_tomorrow_bacc": 0.6956075532415179,
+          "fc_ci90_coverage": 0.8323490813648293
+        },
+        "non_loggers": {
+          "sp_log_bias": -0.2443752488833636,
+          "sp_next_dry_err_days": 0.8073354129693708,
+          "sp_median_abs_pct_err": 30.19886881419366,
+          "sp_spearman": 0.7372449759064932,
+          "fc_ponded_today_bacc": 0.588938604476975,
+          "fc_next_dry_err_days": 1.5333333333333339,
+          "fc_irrigate_by_tomorrow_bacc": 0.5684172293103076,
+          "fc_ci90_coverage": 0.8980352303523035
+        }
+      }
+    }
+  },
+  "fine_tune": {
+    "reality": {
+      "S1-P1-F1-L1|pretrained": {
+        "sp_log_bias": -0.05909657335038123,
+        "sp_next_dry_err_days": 0.4465159735924167,
+        "sp_median_abs_pct_err": 18.618060083252608,
+        "sp_spearman": 0.8997437564359392,
+        "fc_ponded_today_bacc": 0.7567277446351198,
+        "fc_next_dry_err_days": 0.8500000000000001,
+        "fc_irrigate_by_tomorrow_bacc": 0.7341846532874503,
+        "fc_ci90_coverage": 0.8929999999999999
+      },
+      "S1-P1-F0-L1|pretrained": {
+        "sp_log_bias": -0.06300621005915322,
+        "sp_next_dry_err_days": 0.43285086865100153,
+        "sp_median_abs_pct_err": 17.886633324422846,
+        "sp_spearman": 0.9050071137517783,
+        "fc_ponded_today_bacc": 0.7600602354174381,
+        "fc_next_dry_err_days": 0.8500000000000002,
+        "fc_irrigate_by_tomorrow_bacc": 0.7409257112545186,
+        "fc_ci90_coverage": 0.886
+      },
+      "S1-P1-F1-L0|pretrained": {
+        "sp_log_bias": -0.06013137887548568,
+        "sp_next_dry_err_days": 0.45249937821810926,
+        "sp_median_abs_pct_err": 18.396698627166625,
+        "sp_spearman": 0.9000762765190692,
+        "fc_ponded_today_bacc": 0.7552736727452448,
+        "fc_next_dry_err_days": 0.8666666666666666,
+        "fc_irrigate_by_tomorrow_bacc": 0.7422342735407383,
+        "fc_ci90_coverage": 0.8733333333333334
+      },
+      "S1-P1-F0-L1|fine_tuned": {
+        "ft_sp_log_bias_mean": -0.021064892028585358,
+        "ft_sp_log_bias_std": 0.036410373997239155,
+        "ft_sp_next_dry_err_days_mean": 0.4032142937694279,
+        "ft_sp_next_dry_err_days_std": 0.022949840357388937,
+        "ft_sp_median_abs_pct_err_mean": 16.91008007413834,
+        "ft_sp_median_abs_pct_err_std": 0.6851895210046307,
+        "ft_sp_spearman_mean": 0.913514803378701,
+        "ft_sp_spearman_std": 0.0033295448587534063,
+        "ft_fc_ponded_today_bacc_mean": 0.7438823219669315,
+        "ft_fc_ponded_today_bacc_std": 0.006710091585976917,
+        "ft_fc_next_dry_err_days_mean": 0.8472222222222222,
+        "ft_fc_next_dry_err_days_std": 0.012729376930433101,
+        "ft_fc_irrigate_by_tomorrow_bacc_mean": 0.7350956126021381,
+        "ft_fc_irrigate_by_tomorrow_bacc_std": 0.006700939429719782,
+        "ft_fc_ci90_coverage_mean": 0.8847222222222221,
+        "ft_fc_ci90_coverage_std": 0.005072620770517111
+      },
+      "S1-P1-F1-L0|fine_tuned": {
+        "ft_sp_log_bias_mean": -0.04390955051868184,
+        "ft_sp_log_bias_std": 0.08845976505118715,
+        "ft_sp_next_dry_err_days_mean": 0.4360344258268924,
+        "ft_sp_next_dry_err_days_std": 0.04763845413643738,
+        "ft_sp_median_abs_pct_err_mean": 18.37652882617213,
+        "ft_sp_median_abs_pct_err_std": 1.3304566710031875,
+        "ft_sp_spearman_mean": 0.9079462969865743,
+        "ft_sp_spearman_std": 0.0025753313995852665,
+        "ft_fc_ponded_today_bacc_mean": 0.7613854972244002,
+        "ft_fc_ponded_today_bacc_std": 0.007518903951392846,
+        "ft_fc_next_dry_err_days_mean": 0.8152777777777779,
+        "ft_fc_next_dry_err_days_std": 0.028361913689808376,
+        "ft_fc_irrigate_by_tomorrow_bacc_mean": 0.7552028058637958,
+        "ft_fc_irrigate_by_tomorrow_bacc_std": 0.013096356004480152,
+        "ft_fc_ci90_coverage_mean": 0.8838888888888888,
+        "ft_fc_ci90_coverage_std": 0.014778299907233755
+      },
+      "S1-P1-F1-L1|fine_tuned": {
+        "ft_sp_log_bias_mean": -0.1171415838461277,
+        "ft_sp_log_bias_std": 0.04522980272945742,
+        "ft_sp_next_dry_err_days_mean": 0.4710632338991399,
+        "ft_sp_next_dry_err_days_std": 0.03192022671617895,
+        "ft_sp_median_abs_pct_err_mean": 19.13587117308867,
+        "ft_sp_median_abs_pct_err_std": 0.9413216146070235,
+        "ft_sp_spearman_mean": 0.9084877206219302,
+        "ft_sp_spearman_std": 0.0029990055939814607,
+        "ft_fc_ponded_today_bacc_mean": 0.7420119060926087,
+        "ft_fc_ponded_today_bacc_std": 0.012446609312943419,
+        "ft_fc_next_dry_err_days_mean": 0.8472222222222222,
+        "ft_fc_next_dry_err_days_std": 0.04738533919231089,
+        "ft_fc_irrigate_by_tomorrow_bacc_mean": 0.7267333395155647,
+        "ft_fc_irrigate_by_tomorrow_bacc_std": 0.009386679818848886,
+        "ft_fc_ci90_coverage_mean": 0.9033888888888889,
+        "ft_fc_ci90_coverage_std": 0.009025170563690404
+      }
+    },
+    "reality_systematic": {
+      "S1-P1-F1-L1|pretrained": {
+        "sp_log_bias": 0.09303653592540641,
+        "sp_next_dry_err_days": 0.47352158656134935,
+        "sp_median_abs_pct_err": 20.601134685458184,
+        "sp_spearman": 0.8866941311735327,
+        "fc_ponded_today_bacc": 0.7042900936794559,
+        "fc_next_dry_err_days": 1.0166666666666668,
+        "fc_irrigate_by_tomorrow_bacc": 0.7020842759905895,
+        "fc_ci90_coverage": 0.8421666666666666
+      },
+      "S1-P1-F0-L1|pretrained": {
+        "sp_log_bias": 0.09599532410263098,
+        "sp_next_dry_err_days": 0.45868240681690464,
+        "sp_median_abs_pct_err": 20.40180505797428,
+        "sp_spearman": 0.8947402846850712,
+        "fc_ponded_today_bacc": 0.7073780118105427,
+        "fc_next_dry_err_days": 1.0000000000000002,
+        "fc_irrigate_by_tomorrow_bacc": 0.7127365734233756,
+        "fc_ci90_coverage": 0.8168333333333333
+      },
+      "S1-P1-F1-L0|pretrained": {
+        "sp_log_bias": 0.08756680946331746,
+        "sp_next_dry_err_days": 0.46145779833729206,
+        "sp_median_abs_pct_err": 20.08633464197197,
+        "sp_spearman": 0.8909250052312512,
+        "fc_ponded_today_bacc": 0.7104950917346023,
+        "fc_next_dry_err_days": 1.0166666666666668,
+        "fc_irrigate_by_tomorrow_bacc": 0.7145613579908575,
+        "fc_ci90_coverage": 0.8083333333333332
+      },
+      "S1-P1-F0-L1|fine_tuned": {
+        "ft_sp_log_bias_mean": 0.01952370797281314,
+        "ft_sp_log_bias_std": 0.013781565126580913,
+        "ft_sp_next_dry_err_days_mean": 0.4048500150356789,
+        "ft_sp_next_dry_err_days_std": 0.00876885664071252,
+        "ft_sp_median_abs_pct_err_mean": 17.083601573142445,
+        "ft_sp_median_abs_pct_err_std": 0.46628630476048466,
+        "ft_sp_spearman_mean": 0.9081767115441779,
+        "ft_sp_spearman_std": 0.0010712342996066848,
+        "ft_fc_ponded_today_bacc_mean": 0.7036360510451568,
+        "ft_fc_ponded_today_bacc_std": 0.008872622619819357,
+        "ft_fc_next_dry_err_days_mean": 0.9527777777777778,
+        "ft_fc_next_dry_err_days_std": 0.03469443332443556,
+        "ft_fc_irrigate_by_tomorrow_bacc_mean": 0.7176328657607609,
+        "ft_fc_irrigate_by_tomorrow_bacc_std": 0.00926119543090809,
+        "ft_fc_ci90_coverage_mean": 0.8605,
+        "ft_fc_ci90_coverage_std": 0.005783117190965851
+      },
+      "S1-P1-F1-L0|fine_tuned": {
+        "ft_sp_log_bias_mean": 0.006486919060184135,
+        "ft_sp_log_bias_std": 0.02913300140944868,
+        "ft_sp_next_dry_err_days_mean": 0.41984780078319095,
+        "ft_sp_next_dry_err_days_std": 0.007583989538044031,
+        "ft_sp_median_abs_pct_err_mean": 17.58728367982812,
+        "ft_sp_median_abs_pct_err_std": 0.3761851400498345,
+        "ft_sp_spearman_mean": 0.9042290950572737,
+        "ft_sp_spearman_std": 0.0006288088192721177,
+        "ft_fc_ponded_today_bacc_mean": 0.7110473362356807,
+        "ft_fc_ponded_today_bacc_std": 0.019359177828966217,
+        "ft_fc_next_dry_err_days_mean": 0.948611111111111,
+        "ft_fc_next_dry_err_days_std": 0.036403728950225506,
+        "ft_fc_irrigate_by_tomorrow_bacc_mean": 0.7300852044785313,
+        "ft_fc_irrigate_by_tomorrow_bacc_std": 0.010267232426928851,
+        "ft_fc_ci90_coverage_mean": 0.8591666666666667,
+        "ft_fc_ci90_coverage_std": 0.004918784854457917
+      },
+      "S1-P1-F1-L1|fine_tuned": {
+        "ft_sp_log_bias_mean": 0.041205940505946885,
+        "ft_sp_log_bias_std": 0.045861602086793046,
+        "ft_sp_next_dry_err_days_mean": 0.43011669995020435,
+        "ft_sp_next_dry_err_days_std": 0.01899175984137214,
+        "ft_sp_median_abs_pct_err_mean": 18.285762542782635,
+        "ft_sp_median_abs_pct_err_std": 1.1749516468294547,
+        "ft_sp_spearman_mean": 0.9033408983352246,
+        "ft_sp_spearman_std": 0.0017210544955844236,
+        "ft_fc_ponded_today_bacc_mean": 0.7015490396274032,
+        "ft_fc_ponded_today_bacc_std": 0.004586063602057522,
+        "ft_fc_next_dry_err_days_mean": 0.9444444444444445,
+        "ft_fc_next_dry_err_days_std": 0.05292377467571584,
+        "ft_fc_irrigate_by_tomorrow_bacc_mean": 0.7175164986654777,
+        "ft_fc_irrigate_by_tomorrow_bacc_std": 0.005351218856077937,
+        "ft_fc_ci90_coverage_mean": 0.8738888888888888,
+        "ft_fc_ci90_coverage_std": 0.00800231448001368
+      }
+    }
+  }
+}

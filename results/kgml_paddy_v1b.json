@@ -1,0 +1,234 @@
+{
+  "accounting_reference": {
+    "v1": 0.893288904809647,
+    "v1b": 0.8938519555974389
+  },
+  "prior": {
+    "v1": {
+      "loggers": {
+        "sp_log_bias": 0.007922302456937886,
+        "sp_next_dry_err_days": 0.2497368660627579,
+        "sp_median_abs_pct_err": 10.27004120556969,
+        "sp_spearman": 0.9584071025299435,
+        "ponded_today_bacc": 0.8064198352567234,
+        "next_dry_err_days": 0.6583333333333332,
+        "irrigate_by_tomorrow_bacc": 0.8090515397605941,
+        "ci90_coverage": 0.92749343832021
+      },
+      "non_loggers": {
+        "sp_log_bias": -0.8324910268065765,
+        "sp_next_dry_err_days": 2.1136396233696795,
+        "sp_median_abs_pct_err": 56.50355694726015,
+        "sp_spearman": 0.719396611278701,
+        "ponded_today_bacc": 0.6509171353899209,
+        "next_dry_err_days": 2.166666666666667,
+        "irrigate_by_tomorrow_bacc": 0.5998641609952043,
+        "ci90_coverage": 0.9112466124661247
+      }
+    },
+    "v1+meter": {
+      "loggers": {
+        "sp_log_bias": 0.007922302456937886,
+        "sp_next_dry_err_days": 0.2497368660627579,
+        "sp_median_abs_pct_err": 10.27004120556969,
+        "sp_spearman": 0.9584071025299435
+      },
+      "non_loggers": {
+        "sp_log_bias": 0.01184137421651604,
+        "sp_next_dry_err_days": 0.6883816585007665,
+        "sp_median_abs_pct_err": 26.978656432275905,
+        "sp_spearman": 0.6581240126347487
+      },
+      "kappa_median": 2.321567831035841
+    },
+    "v1b": {
+      "loggers": {
+        "sp_log_bias": 0.00393160362220435,
+        "sp_next_dry_err_days": 0.2526656074646121,
+        "sp_median_abs_pct_err": 10.45565638748023,
+        "sp_spearman": 0.9563192875226877,
+        "ponded_today_bacc": 0.7877882646560023,
+        "next_dry_err_days": 0.6250000000000004,
+        "irrigate_by_tomorrow_bacc": 0.7830705708239387,
+        "ci90_coverage": 0.9452099737532809
+      },
+      "non_loggers": {
+        "sp_log_bias": -0.013550604559321257,
+        "sp_next_dry_err_days": 0.6127808208964862,
+        "sp_median_abs_pct_err": 23.532235332906108,
+        "sp_spearman": 0.7415908377290755,
+        "ponded_today_bacc": 0.6291578106738874,
+        "next_dry_err_days": 1.7041666666666666,
+        "irrigate_by_tomorrow_bacc": 0.588513587700166,
+        "ci90_coverage": 0.8763550135501356
+      }
+    },
+    "v1b+meter": {
+      "loggers": {
+        "sp_log_bias": 0.00393160362220435,
+        "sp_next_dry_err_days": 0.2526656074646121,
+        "sp_median_abs_pct_err": 10.45565638748023,
+        "sp_spearman": 0.9563192875226877
+      },
+      "non_loggers": {
+        "sp_log_bias": -0.07659080060873352,
+        "sp_next_dry_err_days": 0.6856854317391856,
+        "sp_median_abs_pct_err": 25.752183087697023,
+        "sp_spearman": 0.6990473936580153
+      },
+      "kappa_median": 0.9396411941382187
+    }
+  },
+  "reality": {
+    "v1": {
+      "loggers": {
+        "sp_log_bias": -0.05087684875489153,
+        "sp_next_dry_err_days": 0.4367223481351321,
+        "sp_median_abs_pct_err": 18.119702072396503,
+        "sp_spearman": 0.9031859345320618,
+        "ponded_today_bacc": 0.7482757907820569,
+        "next_dry_err_days": 0.9,
+        "irrigate_by_tomorrow_bacc": 0.7329424804458746,
+        "ci90_coverage": 0.8572834645669292
+      },
+      "non_loggers": {
+        "sp_log_bias": -1.1116077751834672,
+        "sp_next_dry_err_days": 2.8493570389581673,
+        "sp_median_abs_pct_err": 67.09704649114528,
+        "sp_spearman": 0.704149242080076,
+        "ponded_today_bacc": 0.6438961657788457,
+        "next_dry_err_days": 2.0208333333333335,
+        "irrigate_by_tomorrow_bacc": 0.5853209826232636,
+        "ci90_coverage": 0.934620596205962
+      }
+    },
+    "v1+meter": {
+      "loggers": {
+        "sp_log_bias": -0.05087684875489153,
+        "sp_next_dry_err_days": 0.4367223481351321,
+        "sp_median_abs_pct_err": 18.119702072396503,
+        "sp_spearman": 0.9031859345320618
+      },
+      "non_loggers": {
+        "sp_log_bias": 0.05550968351577115,
+        "sp_next_dry_err_days": 0.7719017194879774,
+        "sp_median_abs_pct_err": 31.50685476791012,
+        "sp_spearman": 0.6333378339282978
+      },
+      "kappa_median": 3.3233526172437173
+    },
+    "v1b": {
+      "loggers": {
+        "sp_log_bias": -0.05979952467667447,
+        "sp_next_dry_err_days": 0.4475278295059275,
+        "sp_median_abs_pct_err": 18.727742727118795,
+        "sp_spearman": 0.9032401808791293,
+        "ponded_today_bacc": 0.7540341055267374,
+        "next_dry_err_days": 0.8916666666666669,
+        "irrigate_by_tomorrow_bacc": 0.7214861773918212,
+        "ci90_coverage": 0.8822178477690289
+      },
+      "non_loggers": {
+        "sp_log_bias": -0.2675368517952902,
+        "sp_next_dry_err_days": 0.8270995007940553,
+        "sp_median_abs_pct_err": 30.034303781784423,
+        "sp_spearman": 0.7046741995374883,
+        "ponded_today_bacc": 0.6226861043369153,
+        "next_dry_err_days": 1.5,
+        "irrigate_by_tomorrow_bacc": 0.5764364466484765,
+        "ci90_coverage": 0.9027777777777777
+      }
+    },
+    "v1b+meter": {
+      "loggers": {
+        "sp_log_bias": -0.05979952467667447,
+        "sp_next_dry_err_days": 0.4475278295059275,
+        "sp_median_abs_pct_err": 18.727742727118795,
+        "sp_spearman": 0.9032401808791293
+      },
+      "non_loggers": {
+        "sp_log_bias": -0.014187328756782767,
+        "sp_next_dry_err_days": 0.7378366260087654,
+        "sp_median_abs_pct_err": 29.742848144265043,
+        "sp_spearman": 0.6592717021355115
+      },
+      "kappa_median": 1.3222668601674543
+    }
+  },
+  "reality_systematic": {
+    "v1": {
+      "loggers": {
+        "sp_log_bias": 0.12061846083736313,
+        "sp_next_dry_err_days": 0.4833323787310113,
+        "sp_median_abs_pct_err": 20.953303911950997,
+        "sp_spearman": 0.884060521577311,
+        "ponded_today_bacc": 0.6891720573393524,
+        "next_dry_err_days": 1.0624999999999998,
+        "irrigate_by_tomorrow_bacc": 0.6968961850812123,
+        "ci90_coverage": 0.7874015748031497
+      },
+      "non_loggers": {
+        "sp_log_bias": -1.0827395934454453,
+        "sp_next_dry_err_days": 2.7738909906486606,
+        "sp_median_abs_pct_err": 66.13334250845064,
+        "sp_spearman": 0.7318635700054323,
+        "ponded_today_bacc": 0.6128567648135691,
+        "next_dry_err_days": 2.1374999999999997,
+        "irrigate_by_tomorrow_bacc": 0.5742984185905827,
+        "ci90_coverage": 0.924119241192412
+      }
+    },
+    "v1+meter": {
+      "loggers": {
+        "sp_log_bias": 0.12061846083736313,
+        "sp_next_dry_err_days": 0.4833323787310113,
+        "sp_median_abs_pct_err": 20.953303911950997,
+        "sp_spearman": 0.884060521577311
+      },
+      "non_loggers": {
+        "sp_log_bias": -0.10325157691300793,
+        "sp_next_dry_err_days": 0.8720196179154269,
+        "sp_median_abs_pct_err": 33.325426764787444,
+        "sp_spearman": 0.5737325167944194
+      },
+      "kappa_median": 2.7440709086972563
+    },
+    "v1b": {
+      "loggers": {
+        "sp_log_bias": 0.10179610816341349,
+        "sp_next_dry_err_days": 0.48179458631586347,
+        "sp_median_abs_pct_err": 20.608523805790146,
+        "sp_spearman": 0.8850791995522985,
+        "ponded_today_bacc": 0.6989233123053591,
+        "next_dry_err_days": 1.0583333333333331,
+        "irrigate_by_tomorrow_bacc": 0.6956075532415179,
+        "ci90_coverage": 0.8323490813648293
+      },
+      "non_loggers": {
+        "sp_log_bias": -0.2443752488833636,
+        "sp_next_dry_err_days": 0.8073354129693708,
+        "sp_median_abs_pct_err": 30.19886881419366,
+        "sp_spearman": 0.7372449759064932,
+        "ponded_today_bacc": 0.588938604476975,
+        "next_dry_err_days": 1.5333333333333339,
+        "irrigate_by_tomorrow_bacc": 0.5684172293103076,
+        "ci90_coverage": 0.8980352303523035
+      }
+    },
+    "v1b+meter": {
+      "loggers": {
+        "sp_log_bias": 0.10179610816341349,
+        "sp_next_dry_err_days": 0.48179458631586347,
+        "sp_median_abs_pct_err": 20.608523805790146,
+        "sp_spearman": 0.8850791995522985
+      },
+      "non_loggers": {
+        "sp_log_bias": -0.14700010661565555,
+        "sp_next_dry_err_days": 0.8070821323623243,
+        "sp_median_abs_pct_err": 32.827221226493165,
+        "sp_spearman": 0.6340343219906166
+      },
+      "kappa_median": 1.1200533352683602
+    }
+  }
+}

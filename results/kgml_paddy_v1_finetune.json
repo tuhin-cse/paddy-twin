@@ -1,0 +1,202 @@
+{
+  "reality|fine_tuned|10": {
+    "next_dry_err_days": 0.99,
+    "share_err_gt1d": 0.474,
+    "ci90_coverage": 0.79,
+    "ponded_today_bacc": 0.76,
+    "ponded_depth_mae_mm": 11.357,
+    "sp_next_dry_err_days": 0.435,
+    "sp_spearman": 0.905,
+    "conformal_scale": null
+  },
+  "reality|fine_tuned|40": {
+    "next_dry_err_days": 1.01,
+    "share_err_gt1d": 0.476,
+    "ci90_coverage": 0.806,
+    "ponded_today_bacc": 0.771,
+    "ponded_depth_mae_mm": 10.838,
+    "sp_next_dry_err_days": 0.412,
+    "sp_spearman": 0.903,
+    "conformal_scale": null
+  },
+  "reality|fine_tuned|80": {
+    "next_dry_err_days": 0.942,
+    "share_err_gt1d": 0.452,
+    "ci90_coverage": 0.858,
+    "ponded_today_bacc": 0.761,
+    "ponded_depth_mae_mm": 10.611,
+    "sp_next_dry_err_days": 0.45,
+    "sp_spearman": 0.907,
+    "conformal_scale": null
+  },
+  "reality|fine_tuned_calibrated|10": {
+    "next_dry_err_days": 0.99,
+    "share_err_gt1d": 0.474,
+    "ci90_coverage": 0.997,
+    "ponded_today_bacc": 0.76,
+    "ponded_depth_mae_mm": 11.357,
+    "sp_next_dry_err_days": null,
+    "sp_spearman": null,
+    "conformal_scale": 6.433
+  },
+  "reality|fine_tuned_calibrated|40": {
+    "next_dry_err_days": 1.01,
+    "share_err_gt1d": 0.476,
+    "ci90_coverage": 0.926,
+    "ponded_today_bacc": 0.771,
+    "ponded_depth_mae_mm": 10.838,
+    "sp_next_dry_err_days": null,
+    "sp_spearman": null,
+    "conformal_scale": 1.892
+  },
+  "reality|fine_tuned_calibrated|80": {
+    "next_dry_err_days": 0.942,
+    "share_err_gt1d": 0.452,
+    "ci90_coverage": 0.948,
+    "ponded_today_bacc": 0.761,
+    "ponded_depth_mae_mm": 10.611,
+    "sp_next_dry_err_days": null,
+    "sp_spearman": null,
+    "conformal_scale": 1.819
+  },
+  "reality|pretrained|0": {
+    "next_dry_err_days": 1.025,
+    "share_err_gt1d": 0.48,
+    "ci90_coverage": 0.833,
+    "ponded_today_bacc": 0.759,
+    "ponded_depth_mae_mm": 11.854,
+    "sp_next_dry_err_days": 0.433,
+    "sp_spearman": 0.9,
+    "conformal_scale": null
+  },
+  "reality|pretrained_calibrated|10": {
+    "next_dry_err_days": 1.025,
+    "share_err_gt1d": 0.48,
+    "ci90_coverage": 0.997,
+    "ponded_today_bacc": 0.759,
+    "ponded_depth_mae_mm": 11.854,
+    "sp_next_dry_err_days": null,
+    "sp_spearman": null,
+    "conformal_scale": 4.997
+  },
+  "reality|pretrained_calibrated|40": {
+    "next_dry_err_days": 1.025,
+    "share_err_gt1d": 0.48,
+    "ci90_coverage": 0.901,
+    "ponded_today_bacc": 0.759,
+    "ponded_depth_mae_mm": 11.854,
+    "sp_next_dry_err_days": null,
+    "sp_spearman": null,
+    "conformal_scale": 1.576
+  },
+  "reality|pretrained_calibrated|80": {
+    "next_dry_err_days": 1.025,
+    "share_err_gt1d": 0.48,
+    "ci90_coverage": 0.941,
+    "ponded_today_bacc": 0.759,
+    "ponded_depth_mae_mm": 11.854,
+    "sp_next_dry_err_days": null,
+    "sp_spearman": null,
+    "conformal_scale": 1.931
+  },
+  "reality_systematic|fine_tuned|10": {
+    "next_dry_err_days": 1.138,
+    "share_err_gt1d": 0.511,
+    "ci90_coverage": 0.717,
+    "ponded_today_bacc": 0.719,
+    "ponded_depth_mae_mm": 11.933,
+    "sp_next_dry_err_days": 0.484,
+    "sp_spearman": 0.889,
+    "conformal_scale": null
+  },
+  "reality_systematic|fine_tuned|40": {
+    "next_dry_err_days": 1.042,
+    "share_err_gt1d": 0.479,
+    "ci90_coverage": 0.789,
+    "ponded_today_bacc": 0.719,
+    "ponded_depth_mae_mm": 11.759,
+    "sp_next_dry_err_days": 0.44,
+    "sp_spearman": 0.905,
+    "conformal_scale": null
+  },
+  "reality_systematic|fine_tuned|80": {
+    "next_dry_err_days": 0.979,
+    "share_err_gt1d": 0.466,
+    "ci90_coverage": 0.814,
+    "ponded_today_bacc": 0.722,
+    "ponded_depth_mae_mm": 10.963,
+    "sp_next_dry_err_days": 0.409,
+    "sp_spearman": 0.908,
+    "conformal_scale": null
+  },
+  "reality_systematic|fine_tuned_calibrated|10": {
+    "next_dry_err_days": 1.138,
+    "share_err_gt1d": 0.511,
+    "ci90_coverage": 0.89,
+    "ponded_today_bacc": 0.719,
+    "ponded_depth_mae_mm": 11.933,
+    "sp_next_dry_err_days": null,
+    "sp_spearman": null,
+    "conformal_scale": 2.114
+  },
+  "reality_systematic|fine_tuned_calibrated|40": {
+    "next_dry_err_days": 1.042,
+    "share_err_gt1d": 0.479,
+    "ci90_coverage": 0.926,
+    "ponded_today_bacc": 0.719,
+    "ponded_depth_mae_mm": 11.759,
+    "sp_next_dry_err_days": null,
+    "sp_spearman": null,
+    "conformal_scale": 1.859
+  },
+  "reality_systematic|fine_tuned_calibrated|80": {
+    "next_dry_err_days": 0.979,
+    "share_err_gt1d": 0.466,
+    "ci90_coverage": 0.964,
+    "ponded_today_bacc": 0.722,
+    "ponded_depth_mae_mm": 10.963,
+    "sp_next_dry_err_days": null,
+    "sp_spearman": null,
+    "conformal_scale": 2.208
+  },
+  "reality_systematic|pretrained|0": {
+    "next_dry_err_days": 1.083,
+    "share_err_gt1d": 0.51,
+    "ci90_coverage": 0.763,
+    "ponded_today_bacc": 0.698,
+    "ponded_depth_mae_mm": 15.071,
+    "sp_next_dry_err_days": 0.476,
+    "sp_spearman": 0.885,
+    "conformal_scale": null
+  },
+  "reality_systematic|pretrained_calibrated|10": {
+    "next_dry_err_days": 1.083,
+    "share_err_gt1d": 0.51,
+    "ci90_coverage": 0.841,
+    "ponded_today_bacc": 0.698,
+    "ponded_depth_mae_mm": 15.071,
+    "sp_next_dry_err_days": null,
+    "sp_spearman": null,
+    "conformal_scale": 1.429
+  },
+  "reality_systematic|pretrained_calibrated|40": {
+    "next_dry_err_days": 1.083,
+    "share_err_gt1d": 0.51,
+    "ci90_coverage": 0.873,
+    "ponded_today_bacc": 0.698,
+    "ponded_depth_mae_mm": 15.071,
+    "sp_next_dry_err_days": null,
+    "sp_spearman": null,
+    "conformal_scale": 1.462
+  },
+  "reality_systematic|pretrained_calibrated|80": {
+    "next_dry_err_days": 1.083,
+    "share_err_gt1d": 0.51,
+    "ci90_coverage": 0.938,
+    "ponded_today_bacc": 0.698,
+    "ponded_depth_mae_mm": 15.071,
+    "sp_next_dry_err_days": null,
+    "sp_spearman": null,
+    "conformal_scale": 1.91
+  }
+}

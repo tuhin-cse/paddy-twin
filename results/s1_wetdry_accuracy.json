@@ -1,0 +1,76 @@
+{
+  "n_s1_dates_paired": 20,
+  "note": "labels from optics; LAI>2 labels are weak",
+  "20m": [
+    {
+      "lai_lo": 0,
+      "lai_hi": 1,
+      "n_wet": 89026,
+      "n_dry": 102696,
+      "n_dates_with_wet": 19,
+      "balanced_acc_lodo": 0.750287496111331,
+      "vh_contrast_db_median": -3.3074569702148438
+    },
+    {
+      "lai_lo": 1,
+      "lai_hi": 2,
+      "n_wet": 20736,
+      "n_dry": 105952,
+      "n_dates_with_wet": 17,
+      "balanced_acc_lodo": 0.7834216463849457,
+      "vh_contrast_db_median": -1.7701950073242188
+    },
+    {
+      "lai_lo": 2,
+      "lai_hi": 3,
+      "n_wet": 297,
+      "n_dry": 36210,
+      "n_dates_with_wet": 13,
+      "balanced_acc_lodo": 0.6154656200223723,
+      "vh_contrast_db_median": 0.24831295013427734
+    },
+    {
+      "lai_lo": 3,
+      "lai_hi": 7,
+      "n_wet": 15,
+      "n_dry": 13419,
+      "n_dates_with_wet": 3
+    }
+  ],
+  "60m": [
+    {
+      "lai_lo": 0,
+      "lai_hi": 1,
+      "n_wet": 47487,
+      "n_dry": 49693,
+      "n_dates_with_wet": 18,
+      "balanced_acc_lodo": 0.787972226587087,
+      "vh_contrast_db_median": -3.210634231567383
+    },
+    {
+      "lai_lo": 1,
+      "lai_hi": 2,
+      "n_wet": 7558,
+      "n_dry": 52055,
+      "n_dates_with_wet": 16,
+      "balanced_acc_lodo": 0.8599819602737135,
+      "vh_contrast_db_median": -2.189596176147461
+    },
+    {
+      "lai_lo": 2,
+      "lai_hi": 3,
+      "n_wet": 74,
+      "n_dry": 27604,
+      "n_dates_with_wet": 8,
+      "balanced_acc_lodo": 0.5899717823895478,
+      "vh_contrast_db_median": 0.23231887817382812
+    },
+    {
+      "lai_lo": 3,
+      "lai_hi": 7,
+      "n_wet": 2,
+      "n_dry": 10220,
+      "n_dates_with_wet": 1
+    }
+  ]
+}

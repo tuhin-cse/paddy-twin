@@ -1,0 +1,66 @@
+{
+  "baseline": {
+    "app: date": {
+      "spearman": 0.6320562842842198,
+      "median_abs_pct_error": 23.91681654226047,
+      "next_dry_err_days": 0.612136640872792,
+      "share_err_gt1d": 0.304,
+      "ci90_coverage": 0.854
+    },
+    "optical + app: date": {
+      "spearman": 0.8516016956016957,
+      "median_abs_pct_error": 18.313442182698164,
+      "next_dry_err_days": 0.46225075162608675,
+      "share_err_gt1d": 0.176,
+      "ci90_coverage": 0.845
+    },
+    "app: date, hours": {
+      "spearman": 0.6371413909642394,
+      "median_abs_pct_error": 20.57164698022936,
+      "next_dry_err_days": 0.5195932478265934,
+      "share_err_gt1d": 0.287,
+      "ci90_coverage": 0.841
+    },
+    "optical + app: date, hours": {
+      "spearman": 0.8813647613647614,
+      "median_abs_pct_error": 16.041530450706027,
+      "next_dry_err_days": 0.4037627998665889,
+      "share_err_gt1d": 0.142,
+      "ci90_coverage": 0.824
+    },
+    "app: date, hours, gone": {
+      "spearman": 0.8754205314205316,
+      "median_abs_pct_error": 15.497179794575223,
+      "next_dry_err_days": 0.40383841369812146,
+      "share_err_gt1d": 0.143,
+      "ci90_coverage": 0.824
+    },
+    "optical + app: date, hours, gone": {
+      "spearman": 0.9100534540534542,
+      "median_abs_pct_error": 15.003199090030229,
+      "next_dry_err_days": 0.37400164351361687,
+      "share_err_gt1d": 0.11,
+      "ci90_coverage": 0.832
+    },
+    "app closed form: h0 / t_gone - Kc ET0": {
+      "spearman": 0.8249599309241659,
+      "share_fields": 0.995
+    }
+  },
+  "topup": {
+    "app: date, hours": {
+      "spearman": 0.6289172449172449,
+      "median_abs_pct_error": 24.238841747700747,
+      "next_dry_err_days": 0.629464239729177,
+      "share_err_gt1d": 0.32,
+      "ci90_coverage": 0.798
+    },
+    "optical + app: date, hours": {
+      "spearman": 0.8863264783264784,
+      "median_abs_pct_error": 15.246259362875335,
+      "next_dry_err_days": 0.38291933515845733,
+      "share_err_gt1d": 0.122,
+      "ci90_coverage": 0.803
+    }
+  }
+}

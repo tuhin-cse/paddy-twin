@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Paddy Twin</title>
+<link rel="stylesheet" href="/static/style.css">
+<script type="importmap">{"imports": {"three": "/static/vendor/three/three.module.min.js", "three/addons/": "/static/vendor/three/addons/"}}</script>
+</head>
+<body>
+<header class="top">
+  <div class="brand"><span class="logo" aria-hidden="true"></span><b>Paddy Twin</b>
+    <span class="sub">KGML-Paddy research simulation, Boro season, Jamalpur weather</span></div>
+  <span class="badge" id="badge" title="Every number on this page comes from simulator v2 and the KGML-Paddy v1b model, not from real fields.">Simulated data</span>
+</header>
+
+<main class="layout">
+  <aside class="controls" aria-label="Environment and village controls">
+    <label class="row">Data source
+      <select id="source" aria-describedby="source-note"><option value="sim">Simulation (simulator v2)</option></select>
+      <span id="source-note" class="hint muted">Campaign data replays real logger, app and satellite files (app/campaigns/)</span>
+    </label>
+    <h2 class="sim-only">Environment</h2>
+    <div id="sliders"></div>
+    <label class="row sim-only">Field layout
+      <select id="site" aria-describedby="site-note"></select>
+      <span id="site-note" class="hint muted">Site files live in app/sites/ (GeoJSON); see app/README.md</span>
+    </label>
+    <label class="check"><input type="checkbox" id="nisar_update" checked> Update forecasts with NISAR passes
+      <span class="hint muted">each pass is a yes/no answer, weighted by the assumed accuracy (Experiment 24)</span></label>
+    <label class="row">Model
+      <select id="model"><option value="v1b">KGML-Paddy v1b (default)</option><option value="v1c">v1c, wider S&amp;P prior (Experiment 22)</option></select>
+    </label>
+    <label class="row sim-only">Simulator world
+      <select id="world">
+        <option value="prior">Same as training</option>
+        <option value="reality">Random mismatch</option>
+        <option value="reality_systematic">Random + systematic</option>
+      </select>
+    </label>
+    <div class="btns">
+      <button id="run" class="primary">Run season</button>
+      <button id="reseed" class="sim-only" title="Same settings, a different village">New village</button>
+    </div>
+    <p id="status" class="muted" role="status"></p>
+    <details class="about"><summary>What am I looking at?</summary>
+      <p>A village of rice fields through one Boro season. The <b>truth</b> is the simulator's water level. The
+      <b>belief</b> is what KGML-Paddy says each evening using only what it has seen so far: Sentinel-2 passes,
+      farmer app logs and the weather.</p>
+      <p><b>X-ray</b> splits each field: truth on the left, belief on the right. Stripes mean the model is unsure
+      whether the field is ponded.</p>
+      <p>Markers: <span class="k k-pass"></span> a satellite pass, <span class="k k-wrong"></span> a wrong pass,
+      <b>!</b> a pass the model doubts (N3), <span class="k k-alert"></span> "irrigate by tomorrow" alert
+      (filled if right), <span class="k k-irr"></span> irrigation today (hollow if the farmer did not log it).</p>
+    </details>
+  </aside>
+
+  <section class="stage">
+    <div class="kpis" id="kpis"></div>
+    <div class="toolbar">
+      <div class="seg" role="tablist" aria-label="Map view">
+        <button data-view="3d" class="on">3D village</button>
+        <button data-view="xray">X-ray</button>
+        <button data-view="truth">Truth</button>
+        <button data-view="belief">Belief</button>
+        <button data-view="leak">Leak rate</button>
+        <button data-view="plan" title="Choose the plots that get loggers">Plan loggers</button>
+        <button data-view="methane" title="Each field's water regime and IPCC Tier 1 methane">Methane</button>
+        <button data-view="advice" class="sim-only" title="The same village irrigated by the advice instead of the farmers' own practice">Advice vs practice</button>
+        <button data-view="experiment" class="sim-only" title="Compare two settings over several villages">Experiment</button>
+        <button data-view="qc" class="replay-only" title="Data quality: loggers, farmer logs, satellites, meters">Data QC</button>
+      </div>
+      <div class="time">
+        <button id="play" aria-label="Play">▶</button>
+        <input id="day" type="range" min="0" max="90" value="30" aria-label="Day of season">
+        <span id="date" class="mono"></span>
+        <select id="speed" aria-label="Speed"><option value="400">1×</option><option value="150" selected>3×</option><option value="50">8×</option></select>
+      </div>
+    </div>
+    <div class="mapwrap loading">
+      <canvas id="map" aria-label="Village map; click a field for details"></canvas>
+      <div id="qcpanel" class="qc" hidden aria-label="Data quality control"></div>
+      <div id="scene3d" class="scene3d" hidden aria-label="3D view of the simulated village; click a field for details"></div>
+      <div id="tip" class="tip" hidden></div>
+      <div id="loader" class="loader" role="status" aria-live="polite">
+        <div class="loader-card">
+          <div class="loader-title" id="ld_title">Starting Paddy Twin…</div>
+          <div class="loader-bar"><span id="ld_bar"></span></div>
+          <div class="loader-meta"><span id="ld_pct">0 %</span><span id="ld_time"></span></div>
+          <ol class="loader-steps" id="ld_steps"></ol>
+          <div class="loader-err" id="ld_err" hidden></div>
+        </div>
+      </div>
+    </div>
+    <div id="legend" class="legend"></div>
+    <div id="planpanel" class="plan" hidden aria-label="Logger placement planner"></div>
+    <div id="cfpanel" class="cf" hidden aria-label="Advice against practice"></div>
+    <div id="mhpanel" class="cf" hidden aria-label="Methane"></div>
+    <div id="expanel" class="cf" hidden aria-label="Experiment mode"></div>
+  </section>
+
+  <section class="detail" id="detail">
+    <h2 id="ftitle">Click a field</h2>
+    <div class="seg dtabs" id="dtabs" hidden><button data-t="chart" class="on">Season chart</button><button data-t="phone">Farmer's phone</button></div>
+    <div id="finfo" class="muted">Pick any field on the map to see its season: true water level, the model's belief
+      with its 90 % range, satellite passes and irrigations.</div>
+    <svg id="chart" role="img" aria-label="Water level of the selected field"></svg>
+    <div id="ctip" class="tip" hidden></div>
+    <div class="ask" id="ask" hidden>
+      <div class="asklabel">Ask the farmer, on <span id="askday"></span>:</div>
+      <button data-kind="yesno">"Is there water now?"</button>
+      <button data-kind="depth">"How much water?"</button>
+      <div id="answer"></div>
+    </div>
+    <div id="phone" hidden></div>
+    <div id="season" class="season"></div>
+  </section>
+</main>
+<script type="module" src="/static/app.js"></script>
+</body>
+</html>

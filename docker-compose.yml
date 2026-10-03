@@ -1,0 +1,12 @@
+# Paddy Twin web app: docker compose up --build, then open http://localhost:8000
+services:
+  paddy-twin:
+    build:
+      context: .
+      dockerfile: app/Dockerfile
+    image: paddy-twin
+    ports:
+      - "8000:8000"
+    environment:
+      TORCH_THREADS: "2"   # raise on a bigger machine; a season takes a few seconds with 2
+    restart: unless-stopped
